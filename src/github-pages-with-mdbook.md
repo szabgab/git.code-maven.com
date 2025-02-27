@@ -3,7 +3,7 @@
 {% embed youtube id="x3vF9YiWBMQ" file="2025-02-27-github-pages-with-mdbook.mp4" %}
 
 
-* [mdBook GitHub repository](https://github.com/rust-lang/mdBook/issues)
+* [mdBook GitHub repository](https://github.com/rust-lang/mdBook/)
 * [mdBook User Guide](https://rust-lang.github.io/mdBook/)
 
 To initialize a new book run
