@@ -4,3 +4,17 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Git Maven"
+
+
+# Add github icon to the menu
+[output.html]
+git-repository-url = "https://github.com/szabgab/git.code-maven.com"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/szabgab/git.code-maven.com/edit/main/{path}"
+
+
+# Handle Youtube video embedding and the footer
+[preprocessor.embedify]
+footer.enable = true
+footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](https://szabgab.com/)"
+
