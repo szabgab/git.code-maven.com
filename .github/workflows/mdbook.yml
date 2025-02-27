@@ -43,6 +43,8 @@ jobs:
         run: |
           export PATH=$PATH:$(pwd)
           mdbook build
+          perl -i -p -e 's{href="index.html"}{href="."}g' book/*.html book/toc.js
+          perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g' book/*.html book/toc.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
