@@ -1,4 +1,4 @@
-Download and install git
+# Download and install git
 
 This time we are going to talk about downloading and installing git.
 There is going to be a separate episode on how to install on Windows, this is some generic overview.

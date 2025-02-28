@@ -1,4 +1,4 @@
-Exercise git session 1
+# Exercise git session 1
 
 {% embed youtube id="bO_xBrq-fVg" file="git/exercise-git-session-1" %}
 
