@@ -25,9 +25,7 @@
     - [Git file status](./git-file-status.md)
     - [Recording changes in Git](./recording-changes-in-git.md)
 
-  - [mdBook](./mdbook.md)
-    - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
-
   - [Other](./other.md)
+    - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
     - [Why Git is better than Subversion for Open Source Projects](./why-is-git-better-than-subversion-for-open-source-projects.md)
 
