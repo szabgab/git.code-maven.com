@@ -1,17 +1,18 @@
 # Summary
 
 - [Home](./index.md)
-  - [mdBook](./mdbook.md)
-    - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
+
   - [Git](./git.md)
-    - [Create an account on GitHub](./create-github-account.md)
     - [git stash - temporary saving changes](./git-stash.md)
     - [Git workflow for individuals](./git-workflow-for-individuals.md)
     - [git config](./git-config.md)
     - [Start Git with a local repository](./start-git-with-a-local-repository.md)
+
+  - [GitHub](./github.md)
+    - [Create an account on GitHub](./create-github-account.md)
     - [Filtering GitHub pull requests waiting for me](./github-pull-requests-waiting-for-me.md)
-    - [Why Git is better than Subversion for Open Source Projects](./why-is-git-better-than-subversion-for-open-source-projects.md)
     - [Merge only one commit from a Pull-request on GitHub](./merge-one-commit-from-a-pull-request.md)
+
   - [Git on Windows](./git-on-windows.md)
     - [Why use a version control system](./why-use-a-version-control-system.md)
     - [Download and install git](./download-and-install-git.md)
@@ -23,4 +24,10 @@
     - [Exercise git session 1](./exercise-git-session-1.md)
     - [Git file status](./git-file-status.md)
     - [Recording changes in Git](./recording-changes-in-git.md)
+
+  - [mdBook](./mdbook.md)
+    - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
+
+  - [Other](./other.md)
+    - [Why Git is better than Subversion for Open Source Projects](./why-is-git-better-than-subversion-for-open-source-projects.md)
 
