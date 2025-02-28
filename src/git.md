@@ -20,14 +20,14 @@ You can also buy the book: [Collaborative Development using Git and GitHub](http
 
 ## Git on MS Windows
 
-[Git on Windows series](/git-on-windows)
+[Git on Windows series](./git-on-windows.md)
 
 ## Other articles
 
-* [Filtering GitHub pull requests waiting for me](/github-pull-requests-waiting-for-me)
-* [Minimal setup for Coverage report at Coveralls for Python projects hosted on GitHub](/coverall-with-python-minimal-setup)
-* [Why Git is better than Subversion for Open Source Projects](/why-is-git-better-than-subversion-for-open-source-projects)
-* [Merge only one commit from a Pull-request on GitHub](/merge-one-commit-from-a-pull-request)
+* [Filtering GitHub pull requests waiting for me](./github-pull-requests-waiting-for-me.md)
+* [Minimal setup for Coverage report at Coveralls for Python projects hosted on GitHub](https://python.code-maven.com/coverall-with-python-minimal-setup)
+* [Why Git is better than Subversion for Open Source Projects](./why-is-git-better-than-subversion-for-open-source-projects.md)
+* [Merge only one commit from a Pull-request on GitHub](./merge-one-commit-from-a-pull-request.md)
 
 
 
@@ -111,7 +111,7 @@ drwxr-xr-x  9 gabor  staff  288 Apr  6 18:19 .git
 ## How to get the most recent tag in a tag series?
 
 Let's say a build process tags each commit that was used by a build and puts the build number on that tag.
-e.g. use tags like <b>build-42</b>
+e.g. use tags like **build-42**
 
 How do we get the most recent one?
 
