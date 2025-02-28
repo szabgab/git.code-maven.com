@@ -33,7 +33,7 @@ I also noticed it takes a lot of time to build the web site as it installs mdBoo
 
 
 ```yaml
-{{#include ../examples/mdbook-github-actions.yml}}
+{{#include examples/mdbook-github-actions.yml}}
 ```
 
 ## Transcription
