@@ -12,6 +12,8 @@
     - [Create an account on GitHub](./create-github-account.md)
     - [Filtering GitHub pull requests waiting for me](./github-pull-requests-waiting-for-me.md)
     - [Merge only one commit from a Pull-request on GitHub](./merge-one-commit-from-a-pull-request.md)
+    - [Creating a website on GitHub Pages using Markdown](./creating-a-website-on-github-pages-using-markdown.md)
+    - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
 
   - [Git on Windows](./git-on-windows.md)
     - [Why use a version control system](./why-use-a-version-control-system.md)
@@ -26,6 +28,5 @@
     - [Recording changes in Git](./recording-changes-in-git.md)
 
   - [Other](./other.md)
-    - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
     - [Why Git is better than Subversion for Open Source Projects](./why-is-git-better-than-subversion-for-open-source-projects.md)
 
