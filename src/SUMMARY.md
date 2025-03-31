@@ -13,6 +13,7 @@
     - [Filtering GitHub pull requests waiting for me](./github-pull-requests-waiting-for-me.md)
     - [Merge only one commit from a Pull-request on GitHub](./merge-one-commit-from-a-pull-request.md)
     - [Creating a website on GitHub Pages using Markdown](./creating-a-website-on-github-pages-using-markdown.md)
+    - [Using Git on Windows in VS Code](./using-git-on-windows-in-vs-code.md)
     - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
 
   - [Git on Windows](./git-on-windows.md)
