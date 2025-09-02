@@ -1,11 +1,11 @@
-name: Deploy mdBook site to Pages
+name: CI
 
 on:
   push:
     branches: ["main"]
+  pull_request:
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -17,16 +17,39 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      MDBOOK_VERSION: 0.4.51
-      EMBEDIFY_VERSION: 0.2.13
     steps:
-      - uses: actions/checkout@v4
-      - name: Install mdBook
+      - name: Checkout site source
+        uses: actions/checkout@v4
+
+      - name: Download processor
+        run: |
+          wget https://ssg.code-maven.com/code-maven
+          chmod +x code-maven
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Generate pages
+        run: |
+          ./code-maven web
+
+      - name: Checkout slides repository to get the mdbook.pl
+        uses: actions/checkout@v5
+        with:
+          repository: 'szabgab/slides'
+          ref: mdbooks
+          path: slides
+
+      - name: Download mdBook
+        env:
+          MDBOOK_VERSION: 0.4.51
+          EMBEDIFY_VERSION: 0.2.13
+          ALERTS_VERSION: 0.7.0
         run: |
           set -x
           wget https://github.com/rust-lang/mdBook/releases/download/v${MDBOOK_VERSION}/mdbook-v${MDBOOK_VERSION}-x86_64-unknown-linux-gnu.tar.gz
@@ -36,21 +59,21 @@ jobs:
           unzip mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu.zip
           mv mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu/mdbook-embedify .
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+          wget https://github.com/lambdalisue/rs-mdbook-alerts/releases/download/v${ALERTS_VERSION}/mdbook-alerts-x86_64-unknown-linux-gnu
+          mv mdbook-alerts-x86_64-unknown-linux-gnu mdbook-alerts
+          chmod +x mdbook-alerts
 
-      - name: Build with mdBook
+      - name: Generate mdbooks
         run: |
           export PATH=$PATH:$(pwd)
-          mdbook build
-          perl -i -p -e 's{href="index.html"}{href="."}g' book/*.html book/toc.js
-          perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g' book/*.html book/toc.js
+          #./books.sh
+          perl slides/mdbooks.pl
+          mv html/* _site/
+
+
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./book
 
   # Deployment job
   deploy:
@@ -63,3 +86,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
