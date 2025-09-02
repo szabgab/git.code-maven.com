@@ -1,0 +1,3 @@
+# GitLab Pipelines
+{id: pipelines}
+

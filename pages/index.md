@@ -9,3 +9,9 @@ show_related: false
 ## Welcome to the Git Maven!
 
 * [Git Maven](/git-maven/)
+* [Git](/git/)
+* [GitHub Actions - CI](/github-ci/)
+* [GitHub Pages](/github-pages/)
+* [Git intro](/git-intro/)
+* [GitLab](/gitlab/)
+
