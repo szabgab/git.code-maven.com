@@ -6,8 +6,12 @@
 * my personal site [szabgab.com](https://szabgab.com/) - [source](https://github.com/szabgab/szabgab.com) - using Perl.
 * [Perl Weekly](https://perlweekly.com/) - [source](https://github.com/szabgab/perlweekly) - Perl, generate the site locally and push the HTML files as well.
 
+* The students of [WIS Python course started in 2023-12](https://github.com/szabgab/wis-python-bootcamp-2023-12)
 * The students of [WIS Python course started in 2024-04](https://github.com/szabgab/wis-python-course-2024-04)
 * The students of [WIS Python course started in 2024-11](https://github.com/szabgab/wis-python-course-2024-11)
+* The students of [WIS Python course started in 2025-03](https://github.com/code-Maven/wis-python-course-2025-03)
+* The students of [WIS Python course started in 2025-10](https://github.com/code-Maven/wis-python-course-2025-10)
+* Members of [Maakaf](https://github.com/szabgab/maakaf/)
 
 
 * [Planet Perl](https://perl.theplanetarium.org/) - [source](https://github.com/PerlToolsTeam/planetperl) using Perl.
