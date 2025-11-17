@@ -1,6 +1,8 @@
 # Markdown
 
-* Titles: One or more `#` followed by the the title
+Let's see some simple Markdown syntax.
+
+* Titles: One or more `#` followed by the title.
 * **Bold** `**` on both sides
 * _Italic_ `_` on both sides
 

@@ -2,11 +2,13 @@
 
 - [GitHub Pages](./github-pages.md)
   - [Why use version control?](./why-use-version-control.md)
+  - [Dynamic vs Static web sites](./dynamic-vs-static-web-sites.md)
   - [GitHub Account](./github-account.md)
   - [Repositories](./github-repositories.md)
   - [GitHub Avatar](./github-avatar.md)
   - [Setting up GitHub page](./setting-up-github-page.md)
   - [HTML - view source](./html-view-source.md)
+  - [Static Site Generators](./static-site-generators.md)
   - [GitHub page with Jekyll](./github-page-with-jekyll.md)
   - [Markdown Links](./markdown-links.md)
   - [Markdown](./markdown.md)
@@ -24,6 +26,7 @@
   - [Rename repository](./rename-repository.md)
   - [Open Issue](./open-issue.md)
   - [Add table of people](./add-table-of-people.md)
+  - [Pages of the non-default repository](./pages-of-the-non-default-repository.md)
 
 
 
