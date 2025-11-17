@@ -16,6 +16,7 @@
   - [Customized 404 Page not found](./page-not-found.md)
   - [Jekyll themes](./jekyll-themes.md)
   - [Themes - layout](./theme-layout.md)
+  - [Remote Themes](./remote-themes.md)
   - [Site-wise configuration](./site-wise-configuration.md)
   - [Page-specific configuration - frontmatter](./page-specific-configuration.md)
   - [JavaScript code](./javascript-code.md)
@@ -27,6 +28,9 @@
   - [Open Issue](./open-issue.md)
   - [Add table of people](./add-table-of-people.md)
   - [Pages of the non-default repository](./pages-of-the-non-default-repository.md)
+- [Other SSGs]()
+  - [Hugo](./hugo.md)
+  - [Pelican](./pelican.md)
 
 
 

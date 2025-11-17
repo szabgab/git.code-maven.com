@@ -8,6 +8,11 @@ In the `_config` file we can add a field called `description:`. It will provide 
 description: Some text
 ```
 
+```
+title: Title of the site
+```
+
+
 ```yaml
 {{#include ../examples/_config.yml}}
 ```
