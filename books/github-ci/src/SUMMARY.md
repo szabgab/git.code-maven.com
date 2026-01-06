@@ -19,8 +19,8 @@
   - [What is Github Actions - GitHub Workflows?](./github-ci/actions/what-is-github-actions.md)
   - [GitHub Actions use-cases](./github-ci/actions/github-actions-use-cases.md)
   - [Documentation](./github-ci/actions/github-actions-documentation.md)
-  - [Setup](./github-ci/actions/github-actions-setup.md)
-  - [UI of the GitHub actions](./github-ci/actions/ui-of-github-actions.md)
+  - [Setup via the UI of the GitHub actions](./github-ci/actions/ui-of-github-actions.md)
+  - [Setup Manually](./github-ci/actions/github-actions-setup.md)
   - [Minimal Ubuntu Linux configuration](./github-ci/actions/minimal-linux-configuration.md)
   - [Minimal Windows configuration](./github-ci/actions/minimal-windows-configuration.md)
   - [Minimal MacOS configuration](./github-ci/actions/minimal-mac-configuration.md)
@@ -28,7 +28,7 @@
   - [Triggering jobs](./github-ci/actions/triggering-jobs.md)
   - [Environment variables](./github-ci/actions/environment-variables.md)
   - [Matrix (env vars)](./github-ci/actions/matrix.md)
-  - [GitHub Action Jobs](./github-ci/actions/jobs.md)
+  - [GitHub Action Parallel Jobs](./github-ci/actions/jobs.md)
   - [GitHub Actions - Runners - runs-on](./github-ci/actions/github-actions-jobs-runs-on.md)
   - [Disable GitHub Action workflow](./github-ci/actions/disable-github-action-workflow.md)
   - [Disable a single GitHub Action job](./github-ci/actions/disable-single-github-action-job.md)
@@ -72,8 +72,8 @@
   - [Examples - Python](./github-ci/actions-for-python/examples-python.md)
   - [Python with Matrix](./github-ci/actions-for-python/github-actions-python-matrix.md)
 
+- [GitHub Actions for Rust](./github-ci/actions-for-rust/index.md)
+
 - [GitHub Actions for NodeJS](./github-ci/actions-for-nodejs/index.md)
   - [NodeJS and OS matrix](./github-ci/actions-for-nodejs/nodejs-os-matrix.md)
-
-
 

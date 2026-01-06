@@ -4,4 +4,8 @@
 * ...
 * On each push
 
+Also
 
+* On each pull-request
+* Scheduled
+* Manually
