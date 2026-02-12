@@ -1,7 +1,7 @@
 # Commits that were not merged yet
 
 ```
-$ git log fetureX --not master
+$ git log fetureX --not main
 ```
 
 

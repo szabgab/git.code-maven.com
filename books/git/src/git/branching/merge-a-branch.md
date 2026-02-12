@@ -2,13 +2,13 @@
 
 
 ```
-$ git checkout master
+$ git checkout main 
 ```
 
 * see that the changes have "disappeared"
-* make some other change on the master to README.txt
+* make some other change on the `main` branch to README.txt
 * see that the two have diverged (use gitk)
-* merge the feature into master
+* merge the feature into `main`
 
 
 ```

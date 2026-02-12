@@ -1,18 +1,16 @@
 # Repeated merge
 
 ```
-$ git co featurey
+$ git checkout featurey
 # edit app.pl add another line
 $ git add app.pl
-$ git ci -m "another line"
+$ git ccommit -m "another line"
 
-$ git co master
+$ git checkout main
 $ git merge featurey
 ```
 
 
-This time the merge was automatic,
-and it only included the changes since the previous merge.
-
+This time the merge was automatic, and it only included the changes since the previous merge.
 
 

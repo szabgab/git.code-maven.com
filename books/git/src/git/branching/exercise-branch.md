@@ -10,7 +10,7 @@
 * Merge A to B again
 * Delete branch C
 * Delete branch A
-* Merge B to master
+* Merge B to main
 * delete B
 
 

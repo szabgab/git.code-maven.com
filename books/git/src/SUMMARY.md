@@ -61,7 +61,7 @@
   - [Exercise](./git/basics/exercise-basic.md)
 
 - [Git Branching](./git/branching/index.md)
-  - [Create a branch](./git/branching/start-a-branch.md)
+  - [Why use branches?](./git/branching/start-a-branch.md)
   - [Create a branch](./git/branching/create-a-branch.md)
   - [Switch between branches](./git/branching/switch-between-branches.md)
   - [Exercises Session 4](./git/branching/exercises-4.md)

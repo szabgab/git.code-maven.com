@@ -5,7 +5,7 @@ $ git branch featurey
 $ git co featurey
 # edit the app.pl file , add a line, commit the change
 
-$ git co master
+$ git co main
 # edit the app.pl file, add a line, commit the change
 
 $ git merge featurey
