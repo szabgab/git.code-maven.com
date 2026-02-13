@@ -2,8 +2,8 @@
 
 ```
 $ git fetch
-$ git co master
-$ git merge origin/master
+$ git chcekout main 
+$ git merge origin/main
 ```
 
 

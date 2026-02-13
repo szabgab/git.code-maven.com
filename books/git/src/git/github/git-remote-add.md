@@ -15,7 +15,7 @@ upstream
 $ git pull
 
 $ git fetch upstream
-$ git merge upstream/master
+$ git merge upstream/main
 ```
 
 

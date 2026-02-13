@@ -2,7 +2,7 @@
 
 * flow
 
-* master        (or deployment)
+* main          (or deployment)
 * hotfixes      (several small branches)
 * release       (to prepare for release)
 * develop       (or integration)

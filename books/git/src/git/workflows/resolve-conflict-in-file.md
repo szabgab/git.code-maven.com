@@ -7,7 +7,7 @@
 
 ```
 rebase in progress; onto 126d1f8
-You are currently rebasing branch 'master' on '126d1f8'.
+You are currently rebasing branch 'main' on '126d1f8'.
   (fix conflicts and then run "git rebase --continue")
   (use "git rebase --skip" to skip this patch)
   (use "git rebase --abort" to check out the original branch)

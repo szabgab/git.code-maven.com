@@ -14,7 +14,7 @@ remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
 From /Users/gabor/work/git/git-server
-   3f6fad3..126d1f8  master     -> origin/master
+   3f6fad3..126d1f8  main     -> origin/main
 First, rewinding head to replay your work on top of it...
 Applying: add another line by A
 Applying: A at the bottom

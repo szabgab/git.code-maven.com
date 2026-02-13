@@ -1,7 +1,7 @@
 # Detached HEAD
 
 ```
-$ git co master
+$ git checkout main
 ```
 
 

@@ -96,11 +96,11 @@
   - [Create branch](./git/local/create-branch.md)
   - [Switch to branch](./git/local/switch-to-branch.md)
   - [Make changes on the branch](./git/local/make-changes-on-branch.md)
-  - [Switch to master](./git/local/switch-to-master.md)
-  - [Add changes to master](./git/local/add-changes-to-master.md)
+  - [Switch to main](./git/local/switch-to-main.md)
+  - [Add changes to main](./git/local/add-changes-to-main.md)
   - [Switch to branch](./git/local/switch-to-branch-2.md)
   - [Another change on the branch](./git/local/another-change-on-the-branch.md)
-  - [Merge branch to master](./git/local/merge-branch-to-master.md)
+  - [Merge branch to main](./git/local/merge-branch-to-main.md)
   - [Shared feature branch](./git/local/shared-feature-branch.md)
 
 

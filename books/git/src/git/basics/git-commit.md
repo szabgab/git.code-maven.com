@@ -8,7 +8,7 @@
 
 ```
 $ git commit -m "Add README"
-[master (root-commit) 1cd95a6] Add README
+[main (root-commit) 1cd95a6] Add README
  1 file changed, 1 insertion(+)
  create mode 100644 README.txt
 ```
@@ -16,7 +16,7 @@ $ git commit -m "Add README"
 
 ```
 $ git status
-# On branch master
+# On branch main
 nothing to commit, working directory clean
 ```
 

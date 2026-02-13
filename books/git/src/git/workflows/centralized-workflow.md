@@ -2,7 +2,7 @@
 
 
 * Single remote repository.
-* Single master branch.
+* Single main branch.
 
 
 

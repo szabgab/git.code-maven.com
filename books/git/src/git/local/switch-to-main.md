@@ -1,7 +1,7 @@
-# Switch to master
+# Switch to main
 
 ```
-$ git checkout master
+$ git checkout main
 ```
 
 The file POLL has disappeared from the working directory.
@@ -9,6 +9,6 @@ The file POLL has disappeared from the working directory.
 ![](images/local/switch-to-master.png)
 
 
-Now the word **master** is bold.
+Now the word **main** is bold.
 
 

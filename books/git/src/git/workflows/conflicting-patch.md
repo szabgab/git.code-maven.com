@@ -3,7 +3,7 @@
 ```
 $ git am --show-current-patch
 
-commit 6297d04c97c29937bcf540cf22312ec3900ae33e (master)
+commit 6297d04c97c29937bcf540cf22312ec3900ae33e (main)
 Author: A &lt;a@code-maven.com&gt;
 Date:   Wed Jun 27 15:53:23 2018 +0300
 

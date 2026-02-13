@@ -8,7 +8,7 @@ $ git commit -m "first version of config.pl"
 ```
 
 ```
-[master cdd2c3b] first version of config.pl
+[main cdd2c3b] first version of config.pl
  1 file changed, 1 insertion(+)
  create mode 100644 config.pl
 ```

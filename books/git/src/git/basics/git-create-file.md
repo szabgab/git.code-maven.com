@@ -8,7 +8,7 @@
 ```
 $ git status
 
-On branch master
+On branch main
 
 Initial commit
 

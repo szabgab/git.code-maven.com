@@ -2,8 +2,8 @@
 
 ```
 git remote add upstream https://github.com/collab-dev/participants.git
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 ```
 

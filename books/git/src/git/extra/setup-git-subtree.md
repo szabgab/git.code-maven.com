@@ -5,7 +5,7 @@
 ```
 $ cd parent-repo
 $ git remote add some-library URL-TO-LIBRARY-REPO
-$ git subtree add --prefix lib/ some-library master
+$ git subtree add --prefix lib/ some-library main
 $ git log
 ```
 

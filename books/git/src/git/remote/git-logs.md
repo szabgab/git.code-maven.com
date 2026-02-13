@@ -1,19 +1,19 @@
 # incoming, outgoing
 
 
-git incoming - After a fetch it will show what is on the remote master barnch that I have not merged into my own master.
+git incoming - After a fetch it will show what is on the remote `main` barnch that I have not merged into my own `main`.
 
 
 ```
-$ git log origin/master ^master
+$ git log origin/main ^main
 ```
 
 
-git outgoing - What is on my master that has not been pushed to the remote master
+git outgoing - What is on my `main` branch that has not been pushed to the remote `main` branch.
 
 
 ```
-$ git log master ^origin/master
+$ git log main ^origin/main
 ```
 
 

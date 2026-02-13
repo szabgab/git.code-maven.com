@@ -7,7 +7,7 @@ Mary also wants to work on the same feature, so she pulls it down.
 Joe:
 
 ```
-$ git co master
+$ git co main 
 $ git co -b develop
 $ git co -b feature/A
 # create file A.txt

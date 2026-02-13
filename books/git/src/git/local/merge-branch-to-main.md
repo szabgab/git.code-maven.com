@@ -1,7 +1,7 @@
-# Merge branch to master
+# Merge branch to main
 
 ```
-$ git checkout master
+$ git checkout main
 ```
 ![](images/local/switch-to-master-2.png)
 

@@ -25,7 +25,7 @@ $ .git/COMMIT_MESSAGE   (always the last commit message)
 Two more objects appeared:
   a tree object and a commit object
 
-.git/refs/heads/master  was created with the SHA1 of commit object in it
+.git/refs/heads/main  was created with the SHA1 of commit object in it
 
 $ echo "second version" >> README
 $ git add README

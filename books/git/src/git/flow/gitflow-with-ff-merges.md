@@ -126,9 +126,9 @@ git checkout develop
 git checkout -b release/v1.00
 git push -u origin release/v1.00
 # do some last minute work on the relaase branch. Once it is done
-git checkout master
+git checkout main
 git merge --ff-only release/v1.00    # fast forward
-git tag v1.00                        # tag is placed on the master
+git tag v1.00                        # tag is placed on the main
 git checkout release/v1.00
 git merge develop                    # resolve conflicts if necessary
 # Test
@@ -137,7 +137,7 @@ git merge --ff-only release/v1.00    # fast forward
 ```
 
 
-hotfix is the same as release except it stars from 'master' and not from 'develop'
+hotfix is the same as release except it stars from 'main' and not from 'develop'
 and the branch is called hotfix/v1.01.
 
 

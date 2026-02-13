@@ -15,7 +15,7 @@ Initialized empty Git repository in /c/work/app/.git/
 
 ```
 $ git status
-On branch master
+On branch main
 
 Initial commit
 

@@ -4,7 +4,7 @@
 A: $ git checkout -b feature
 A: $ git push -u origin feature
 
-B: $ git chechkout master
+B: $ git chechkout main
 B: $ git pull
 B: $ git branch feature origin/feature
 ```

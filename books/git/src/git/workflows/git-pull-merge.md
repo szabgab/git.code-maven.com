@@ -4,7 +4,7 @@
 B: `$ git pull`
 
 ```
-Merge branch 'master' of /Users/gabor/work/git/git-server
+Merge branch 'main' of /Users/gabor/work/git/git-server
 
 # Please enter a commit message to explain why this merge is necessary,
 # especially if it merges an updated upstream into a topic branch.

@@ -74,7 +74,7 @@ $ git commit -m "update README"
 ```
 
 ```
-[master 1251a45] update README
+[main 1251a45] update README
  1 file changed, 2 insertions(+), 1 deletion(-)
 ```
 
