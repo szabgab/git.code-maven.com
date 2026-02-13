@@ -2,6 +2,6 @@
 
 * Many different GUI tools.
 * Most of the tutorials are for the command line.
-* Most of the people who can provide you help understand the command line, but specific GUI tools.
+* Most of the people who can provide you help understand the command line, but not any specific GUI tool.
 
 

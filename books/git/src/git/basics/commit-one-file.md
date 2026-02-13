@@ -1,6 +1,6 @@
 # Commit the file(s)
 
-Only the staged file is committed.
+Only the staged changes are committed.
 
 
 ```
@@ -16,5 +16,6 @@ $ git commit -m "first version of config.pl"
 ```
 $ git status
 ```
+
 {% embed include file="src/examples/out/status_08.txt" %}
 

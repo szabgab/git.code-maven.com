@@ -20,18 +20,19 @@
   - [Distributed Version Control Systems (DVCS)](./git/intro/distributed-version-control-systems.md)
   - [Why Git?](./git/intro/why-git.md)
   - [Locking or not](./git/intro/locking.md)
-  - [Conflicts](./git/intro/conflicts.md)
   - [Git services](./git/intro/git-services.md)
   - [Git Overview](./git/intro/git-overview.md)
   - [Git Installation](./git/intro/installation.md)
   - [Command line](./git/intro/command-line.md)
   - [Why Command line?](./git/intro/why-command-line.md)
+  - [GUI](./git/intro/gui.md)
   - [Which version do you have?](./git/intro/which-version.md)
   - [Configure Git](./git/intro/git-configure.md)
   - [Configure Git - personalize](./git/intro/git-configure-personal.md)
   - [Configure and Privacy](./git/intro/privacy.md)
   - [More configuration - alias](./git/intro/more-git-configuration.md)
   - [Getting help](./git/intro/git-help.md)
+  - [Git Tutorial](./git/intro/tutorial.md)
   - [Exercises](./git/intro/exercise-intro.md)
 
 - [Git Basics](./git/basics/index.md)
@@ -65,6 +66,7 @@
 - [Git Branching](./git/branching/index.md)
   - [Why use branches?](./git/branching/start-a-branch.md)
   - [Create a branch](./git/branching/create-a-branch.md)
+  - [Create a branch and switch to it](./git/branching/create-a-branch-and-switch-to-it.md)
   - [Switch between branches](./git/branching/switch-between-branches.md)
   - [Exercises Session 4](./git/branching/exercises-4.md)
   - [Simple automatic merge](./git/branching/merge-a-branch.md)
@@ -72,7 +74,6 @@
   - [Repeated merge](./git/branching/repeated-merge.md)
   - [Delete branch](./git/branching/delete-barnch.md)
   - [Force delete branch](./git/branching/force-delete-branch.md)
-  - [Delete remote branch](./git/branching/delete-branch-from-remote.md)
   - [Exercises Session 6](./git/branching/exercises-6.md)
   - [rebase](./git/branching/rebase.md)
   - [Exercises Session 7](./git/branching/exercises-7.md)
@@ -115,6 +116,8 @@
   - [incoming, outgoing](./git/remote/git-logs.md)
   - [Remote branch](./git/remote/remote-branch.md)
   - [Remote branch created by others](./git/remote/other-remote-branch.md)
+  - [Delete remote branch](./git/branching/delete-branch-from-remote.md)
+  - [Remove remote tags](./git/remote/remove-remote-tags.md)
   - [Exercise](./git/remote/exercise-remote.md)
 
 - [Git Workspace](./git/workspace/index.md)
@@ -190,6 +193,7 @@
   - [Tools](./git/appendix/tools.md)
   - [External difftool WinMerge](./git/appendix/git-external-difftool.md)
   - [Resources](./git/appendix/git-resources.md)
+  - [Conflicts](./git/intro/conflicts.md)
 
 - [Extra](./git/extra/index.md)
   - [Stage hunk-by-hunk](./git/extra/stage-hunk-by-hunk.md)
@@ -202,16 +206,4 @@
   - [Setup git subtree](./git/extra/setup-git-subtree.md)
   - [git subtree change parent](./git/extra/git-subtree-change-parent.md)
   - [git subtree change in subtre](./git/extra/git-subtree-change-subtree.md)
-
-
-
-
-
-
-
-
-
-
-
-
 

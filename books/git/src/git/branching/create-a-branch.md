@@ -32,15 +32,4 @@ $ git branch
 Make some changes to app.pl, and commit them to the repository
 
 
-## Create a branch and swicth to it in one command
-
-* Alternative way that creates a branch and checks it out:
-
-```
-git checkout -b featurex
-```
-
-* Make some changes to file, and commit it to the repository.
-* Use `gitk --all` to see the branch.
-
 

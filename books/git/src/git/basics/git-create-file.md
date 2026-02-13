@@ -1,8 +1,8 @@
 # Create first file
 
-* status
+* `status`
 
-* Create README.txt with one line of text.
+* Create README.txt with your favorite editor and add one line of text.
 * Check the status of the working directory.
 
 ```

@@ -1,8 +1,7 @@
 # Creating a local empty repository
 
-* init
-* status
-* st
+* `init`
+* `status`
 
 ```
 $ mkdir app

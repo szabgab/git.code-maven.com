@@ -1,8 +1,5 @@
 # log
 
-* log
-* gitk
-
 ```
 $ git log
 $ git log -p
