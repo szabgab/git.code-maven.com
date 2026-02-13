@@ -1,9 +1,7 @@
 # Git commands
 
 
-
-Basic
-
+## Basic
 
 * add
 * commit
@@ -11,14 +9,11 @@ Basic
 * diff
 * log
 
-
+## Visual view
 
 * gitk --all
 
-
-
-Networking
-
+## Networking
 
 * clone
 * push
@@ -26,10 +21,7 @@ Networking
 * fetch
 * remote
 
-
-
-Advanced
-
+## Advanced
 
 * stash
 * annotate
@@ -38,5 +30,4 @@ Advanced
 * rebase
 * bisect
 * reset
-
 

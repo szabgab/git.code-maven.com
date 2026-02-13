@@ -12,3 +12,7 @@ git rebase --abort
 * Automerge works but there is a syntactic or logical conflict that break the code. (compile-time or run-time error)
 
 * Automerge works, but still, how can we know that the result is correct?
+
+
+LFS - Git Large File Storage
+
