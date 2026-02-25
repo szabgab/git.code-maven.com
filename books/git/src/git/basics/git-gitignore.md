@@ -2,12 +2,8 @@
 
 * .gitignore
 
-The `.gitignore` file in the root of the repository
-can describe sets of files that don't need tracking.
-This will make sure you don't add the files by mistake
-(e.g. while using git add .) and they won't show up in the
-output of the `git status` command.
-
+The `.gitignore` file in the root of the repository can describe sets of files that don't need tracking.
+This will make sure you don't add the files by mistake (e.g. while using git add .) and they won't show up in the output of the `git status` command.
 
 
 ```

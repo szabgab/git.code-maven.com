@@ -3,8 +3,6 @@
 
 Make some changes to the config.pl file and stage it.
 
-
-
 ```
 $ notepad config.pl
 $ git status
@@ -64,5 +62,4 @@ $ git diff HEAD
 
 
 changes between working copy and HEAD
-
 

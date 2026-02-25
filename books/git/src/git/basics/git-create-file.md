@@ -22,4 +22,3 @@ nothing added to commit but untracked files present (use "git add" to track)
 {% embed include file="src/examples/out/status_01.txt" %}
 
 
-

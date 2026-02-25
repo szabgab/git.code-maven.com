@@ -16,3 +16,6 @@ git rebase --abort
 
 LFS - Git Large File Storage
 
+* git, mercurial, subversion, cvs, rcs, ...
+
+pre-commit hooks!

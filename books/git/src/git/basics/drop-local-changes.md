@@ -18,4 +18,3 @@ You loose your local work.
 
 {% embed include file="src/examples/out/status_12.txt" %}
 
-

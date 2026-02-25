@@ -12,4 +12,5 @@ On **MacOS** use [Homebrew](https://brew.sh/) or [git-scm](https://git-scm.com/)
 * `brew install git`
 
 
+* In some systems you could also just type `git` in the Terminal and you'll be offered to install `git`.
 

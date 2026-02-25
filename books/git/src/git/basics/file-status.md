@@ -13,5 +13,3 @@ Tracked files can be
 * **modified**
 * **staged**
 
-
-

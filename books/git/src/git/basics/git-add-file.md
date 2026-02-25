@@ -15,4 +15,3 @@ $ git status
 
 {% embed include file="src/examples/out/status_02.txt" %}
 
-

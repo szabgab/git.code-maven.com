@@ -12,4 +12,3 @@ git version 2.30.2
 git version 2.39.5 (Apple Git-154)
 ```
 
-

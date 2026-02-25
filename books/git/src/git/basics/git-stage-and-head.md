@@ -17,5 +17,3 @@ $ git diff HEAD
    # (changes between working copy and HEAD)
 ```
 
-
-
