@@ -1,5 +1,8 @@
 # Why Git?
 
-It seems to be far the most popular DVCS.
+Given that there are severl Distributed Version Control Systems (DVCS), why Git?
 
-It is Open Source and free.
+* It seems to be far the most popular DVCS.
+* Written by Linux Torvalds.
+* It is Open Source and free.
+

@@ -1,25 +1,23 @@
 # Parallel work - Locking or not?
 
-In VCS-es there are two major process of handling parallel work:
+In VCS-es there are two major methodologies of handling parallel work:
 
 
 ## Lock - modify - unlock
 
-Before I can start working on a file I need to lock it. After modification I unlock it.
+* Before I can start working on a file I need to lock it. After modification I unlock it.
+* While it is locked others cannot change the file.
 
-While it is locked others cannot change the file.
-
-This helps avoiding conflicts, but the price is very high. It means every else has to wait till I finish my changes.
-What if I get sick and can't work for several days?
+This helps avoiding conflicts, but the price is very high. It means everyone else has to wait till I finish my changes.
+What if I go on vacation? What if I get sick and can't work for several days?
 
 
 ## Copy - modify - merge
 
-Allow everyone to make changes to every file. Then when the files are integrated merge the changes.
+* Allow everyone to make changes to every file.
+* When the files are integrated merge the changes.
 
-Advantage: allows parallel work by multiple people.
+Advantage: Allows parallel work by multiple people.
 
-Disadvantage: Several types of conflicts.
-
-
+Disadvantage: There can be several types of conflicts.
 
