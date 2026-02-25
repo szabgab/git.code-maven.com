@@ -2,7 +2,7 @@
 
 - [Git](./index.md)
 
-- [survey questions](./git/survey/index.md)
+- [Survey questions](./git/survey/index.md)
   - [How do you work now? Describe your current workflow!](./git/survey/survey-1.md)
   - [How often do you commit? How often do you push/pull?](./git/survey/survey-2.md)
   - [How often do you have 'conflicts'?](./git/survey/survey-3.md)
