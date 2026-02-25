@@ -12,6 +12,5 @@ show_related: false
 * [Git](/git/)
 * [GitHub Actions - CI](/github-ci/)
 * [GitHub Pages](/github-pages/)
-* [Git intro](/git-intro/)
 * [GitLab](/gitlab/)
 
