@@ -1,5 +1,4 @@
-# Exercise
-
+# Exercise 2
 
 * Create a directory and inside create a new local repository.
 * Create a directory and in that directory create a file.  (You can use Visual Studio or Eclipse or your IDE to start a new project.)
@@ -9,4 +8,5 @@
 * Make some changes. Check what are the changes. Commit some of them.
 * Go over the previous chapter and execute all the commands we went through.
 * If there is any problem. Ask for help!
+
 

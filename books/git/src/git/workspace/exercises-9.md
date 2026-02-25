@@ -2,7 +2,7 @@
 
 * Create a file called 'add.sh' with the following content:
 
-![](examples/git/add.sh)
+{% embed include file="src/examples/git/add.sh" %}
 
 * Make it executable.
 * Test it: `./add 23 19` should print 42
@@ -24,6 +24,5 @@ git commit -am "7"
 * `./add.sh 23 19` will now prin 4 instead of 42.
 
 * Using bisect find the commit that broke it.
-
 
 

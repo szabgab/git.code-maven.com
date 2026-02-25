@@ -1,7 +1,5 @@
-# Remove a file
+# Remove a file (rm)
 
-
-* rm
 
 ```
 $ git rm setup.pl

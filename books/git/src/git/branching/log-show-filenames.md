@@ -5,5 +5,3 @@
 $ git log --name-only
 ```
 
-
-

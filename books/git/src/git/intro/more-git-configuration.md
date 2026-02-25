@@ -1,7 +1,5 @@
 # More configuration - alias
 
-* alias
-
 ```
 $ git config --global --add alias.st status
 $ git config --global --add alias.ci commit
@@ -18,5 +16,4 @@ $ git config --global --unset core.editor
 
 $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
-
 

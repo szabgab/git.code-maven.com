@@ -8,4 +8,3 @@ git push
 
 * Visit [particpants](https://github.com/collab-dev/participants)
 
-

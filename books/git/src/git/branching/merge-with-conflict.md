@@ -2,10 +2,10 @@
 
 ```
 $ git branch featurey
-$ git co featurey
+$ git checkout featurey
 # edit the app.pl file , add a line, commit the change
 
-$ git co main
+$ git checkout main
 # edit the app.pl file, add a line, commit the change
 
 $ git merge featurey
@@ -17,10 +17,8 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Edit the app.pl file and resolved the conflict, removing the marks and writing the correct code.
 
-
 ```
 $ git add app.pl
-$ git ci -m "featurey merged"
+$ git commit -m "featurey merged"
 ```
-
 

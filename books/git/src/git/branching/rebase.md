@@ -37,4 +37,3 @@ Applying: feature
 Observe the situation again using `gitk --all &`
 
 
-

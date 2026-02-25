@@ -2,8 +2,7 @@
 
 * clone
 
-
-Let's see [GithuGithubb](https://github.com/)
+Let's see [Github](https://github.com/)
 
 
 ```

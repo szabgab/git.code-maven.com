@@ -1,6 +1,5 @@
 # Exercises Session 8
 
-
 * Make some local changes
 * Create a new file
 * Stash them away using `git stash -u`

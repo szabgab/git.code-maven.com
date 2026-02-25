@@ -1,8 +1,7 @@
 # Simple automatic merge
 
-
 ```
-$ git checkout main 
+$ git checkout main
 ```
 
 * see that the changes have "disappeared"
@@ -19,5 +18,4 @@ Merge made by the 'recursive' strategy.
 
 $ gitk --all
 ```
-
 

@@ -14,3 +14,5 @@
 * It is just a name pointing to a specific commit. (sha)
 * When we make a commit the currently active branch (if we have one) will move to point to the new commit.
 * It is called a branch because after making several commits it will look like a branch of a tree. Especially if there are other branches and they have moved forward as well.
+
+

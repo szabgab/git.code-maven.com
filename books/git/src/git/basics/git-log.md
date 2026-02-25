@@ -1,4 +1,4 @@
-# log
+# git log
 
 ```
 $ git log

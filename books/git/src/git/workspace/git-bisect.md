@@ -25,4 +25,3 @@ git bisect good
 git bisect good / bad
 ```
 
-
