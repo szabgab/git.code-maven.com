@@ -1,8 +1,6 @@
 # Which version do you have?
 
-* --version
-
-Windows: use the Git Bash or the terminal of VS Code
+Windows: use the Git Bash or the terminal of VS Code.
 
 ```
 $ git --version

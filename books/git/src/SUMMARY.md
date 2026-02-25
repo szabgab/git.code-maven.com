@@ -19,10 +19,10 @@
   - [Centralized Version Control Systems (CVCS)](./git/vcs/centralized-version-control-systems.md)
   - [Distributed Version Control Systems (DVCS)](./git/vcs/distributed-version-control-systems.md)
   - [Why Git?](./git/vcs/why-git.md)
+  - [Git services](./git/vcs/git-services.md)
   - [Locking or not](./git/vcs/locking.md)
 
 - [Git intro](./git/intro/index.md)
-  - [Git services](./git/intro/git-services.md)
   - [Git Overview](./git/intro/git-overview.md)
   - [Git Installation](./git/intro/installation.md)
   - [Command line](./git/intro/command-line.md)

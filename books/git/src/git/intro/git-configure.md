@@ -1,8 +1,6 @@
 # Configure Git
 
-* config
-
-**There are three levels of configuration:**
+## There are three levels of configuration:
 
 * System (--system)
 * User (--global)
@@ -11,6 +9,8 @@
 ```
 $ git config ...
 ```
+
+Each level has a file to hold the configuration values.
 
 
 **On Unix**
@@ -33,14 +33,4 @@ To access them use
 --local
 ```
 
-**Samples:**
-
-```
-$ git config --global --add user.name "Foo Bar"
-$ git config --global --add user.email foo@bar.com
-
-$ git config --list
-$ git config --list --global
-$ git config user.name      # to see specific value
-```
 
