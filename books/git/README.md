@@ -282,3 +282,12 @@ $ git status
 * Integrity using SHA-1 hashes of the files. (40 character string of hexadecimal characters called "object name" or "SHA-1 id".)
 
 
+Git blame for a line and show the specific commit.
+
+Git show when a file was deleted.
+
+Git find when a file was renamed.
+
+Find when a line was removed. Eg. In the list of subscribers of the Perl Weekly (or when a function was removed)
+
+Try 3-way merge tools
