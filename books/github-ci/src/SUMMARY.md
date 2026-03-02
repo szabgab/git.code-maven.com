@@ -1,8 +1,8 @@
 # Summary
 
-- [Continuous Integration for GitHub projects](./index.md)
+- [GitHub Workflows and GitHub Actions](./index.md)
 
-- [Continuous Integration for GitHub projects](./github-ci/introduction/index.md)
+- [Continuous Integration](./github-ci/introduction/index.md)
   - [What is Git](./github-ci/introduction/git.md)
   - [What is GitHub](./github-ci/introduction/github.md)
   - [CI - Continuous Integration](./github-ci/introduction/ci.md)
@@ -11,9 +11,6 @@
   - [CD - Continuous Delivery (or Deployment)](./github-ci/introduction/cd.md)
   - [Cloud-based CI system](./github-ci/introduction/cloud-based-ci.md)
   - [Exercises](./github-ci/introduction/exercises.md)
-
-- [Coveralls](./github-ci/coveralls/index.md)
-  - [About Coveralls](./github-ci/coveralls/about-coveralls.md)
 
 - [GitHub Actions](./github-ci/actions/index.md)
   - [What is Github Actions - GitHub Workflows?](./github-ci/actions/what-is-github-actions.md)
@@ -76,4 +73,8 @@
 
 - [GitHub Actions for NodeJS](./github-ci/actions-for-nodejs/index.md)
   - [NodeJS and OS matrix](./github-ci/actions-for-nodejs/nodejs-os-matrix.md)
+
+- [Coveralls](./github-ci/coveralls/index.md)
+  - [About Coveralls](./github-ci/coveralls/about-coveralls.md)
+
 

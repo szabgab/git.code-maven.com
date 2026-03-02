@@ -3,7 +3,7 @@
 * [python-with-test](https://github.com/collab-dev/python-with-test)
 * [python-without-test](https://github.com/collab-dev/python-without-test)
 
-* For the repository so you have your own copy
+* Fork the repository so you have your own copy
 * Clone the forked repo
 
 * Enable Travis, Appveyor

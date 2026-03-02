@@ -1,8 +1,18 @@
 # Setup GitHub Actions manually
 
-* Create directory `.github/workflows`
+
+You can do this via the web interface of GitHub or you can clone the project locally, add the file (and later make the changes) locally, and then push the changes to GitHub.
+
+* Create a folder in the root of your repository called `.github/workflows`.
 * Create a [YAML](https://yaml.org/) file in it.
-* Commit the changes and push them to GitHub.
+    * The name of the file does not matter.
+    * The extension must be either `.yaml` or `.yml`.
+    * I often call it `.github/workflows/ci.yaml`.
+* Commit the changes and if you worked locally, push them to GitHub.
+* Once you did this visit the `Actions` tab of your repository on GitHub. After a few seconds you should see the indication that a job is running and then after a while you will see the results.
+
+---
+
 
 * Next we'll see examples for these YAML files.
 
