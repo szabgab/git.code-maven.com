@@ -13,10 +13,10 @@
   - [Exercises](./github-ci/introduction/exercises.md)
 
 - [GitHub Actions](./github-ci/actions/index.md)
-  - [What is Github Actions - GitHub Workflows?](./github-ci/actions/what-is-github-actions.md)
+  - [What are Github Actions?](./github-ci/actions/what-is-github-actions.md)
   - [GitHub Actions use-cases](./github-ci/actions/github-actions-use-cases.md)
   - [Documentation](./github-ci/actions/github-actions-documentation.md)
-  - [Setup via the UI of the GitHub actions](./github-ci/actions/ui-of-github-actions.md)
+  - [Setup via the UI of GitHub](./github-ci/actions/ui-of-github-actions.md)
   - [Setup Manually](./github-ci/actions/github-actions-setup.md)
   - [Minimal Ubuntu Linux configuration](./github-ci/actions/minimal-linux-configuration.md)
   - [Minimal Windows configuration](./github-ci/actions/minimal-windows-configuration.md)
@@ -48,6 +48,8 @@
   - [Lock Threads](./github-ci/actions/lock-threads.md)
   - [GitHub Actions examples](./github-ci/actions/github-actions-examples.md)
   - [GitHub Workflows](./github-ci/actions/github-workflows.md)
+  - [List of files changed](./github-ci/actions/list-files-changed.md)
+  - [Avoid duplicate triggers](./github-ci/actions/avoid-duplicate-triggers.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)
