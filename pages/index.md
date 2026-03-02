@@ -10,7 +10,7 @@ show_related: false
 
 * [Git Maven](/git-maven/)
 * [Git](/git/)
-* [GitHub Actions - CI](/github-ci/)
+* [GitHub Actions / GitHub Workflows](/github-actions/)
 * [GitHub Pages](/github-pages/)
 * [GitLab](/gitlab/)
 
