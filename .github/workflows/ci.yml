@@ -38,6 +38,11 @@ jobs:
         run: |
           ./code-maven web
 
+      - name: Prepare the github-actions book
+        run: |
+          cd books/github-actions/
+          perl prepare.pl
+
       - name: Checkout slides repository to get the mdbook.pl
         uses: actions/checkout@v5
         with:
