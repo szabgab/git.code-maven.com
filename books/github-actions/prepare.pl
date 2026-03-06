@@ -6,8 +6,9 @@ use File::Copy qw(copy);
 my $ROOT = "/home/gabor/github/github-actions";
 
 my @pairs = (
-    ["szabgab", "github-actions-minimal",        "ci.yml",             "minimal.yml"],
-    ["szabgab", "github-actions-minimal-ubuntu", "minimal_ubuntu.yml", "minimal_ubuntu.yml"],
+    ["szabgab", "github-actions-minimal",         "ci.yml", "minimal.yml"],
+    ["szabgab", "github-actions-minimal-ubuntu",  "ci.yml", "minimal_ubuntu.yml"],
+    ["szabgab", "github-actions-minimal-windows", "ci.yml", "minimal_windows.yml"],
 );
 
 for my $pair (@pairs) {
