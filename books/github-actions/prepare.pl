@@ -6,15 +6,15 @@ use File::Copy qw(copy);
 my $ROOT = "/home/gabor/github/github-actions";
 
 my @pairs = (
-    ["github-actions-minimal-ubuntu", "minimal_ubuntu.yml"]
+    ["szabgab", "github-actions-minimal",        "ci.yml",             "minimal.yml"],
+    ["szabgab", "github-actions-minimal-ubuntu", "minimal_ubuntu.yml", "minimal_ubuntu.yml"],
 );
 
 for my $pair (@pairs) {
-    my ($repo, $filename, $owner) = @$pair;
-    $owner //= "szabgab";
+    my ($owner, $repo, $remote, $local) = @$pair;
     if ($ENV{CI}) {
-        system "curl --silent https://raw.githubusercontent.com/$owner/$repo/refs/heads/main/.github/workflows/$filename --output src/examples/workflows/$filename";
+        system "curl --silent https://raw.githubusercontent.com/$owner/$repo/refs/heads/main/.github/workflows/$remote --output src/examples/workflows/$local";
     } else {
-        copy "$ROOT/$repo/.github/workflows/$filename", "src/examples/workflows/$filename";
+        copy "$ROOT/$repo/.github/workflows/$remote", "src/examples/workflows/$local";
     }
 }

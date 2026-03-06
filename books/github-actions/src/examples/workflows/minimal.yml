@@ -1,0 +1,20 @@
+# We need a trigger
+on:
+  # This will run the workflow on every push
+  push:
+  # One trigger is enough.
+  # We added this so we can run the workflow manually as well without making changes.
+  workflow_dispatch:
+
+# We need at least on job
+jobs:
+  # The name of the job can be any arbitrary name. In this it will be "ci"
+  ci:
+    # We have to state which platform to run on:
+    runs-on: ubuntu-latest
+    # We need one or more steps:
+    steps:
+      # The first and only step is executing a shell command to print Hello World
+      - run: echo Hello World
+
+# We don't need any of the comments...

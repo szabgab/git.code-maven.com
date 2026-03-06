@@ -7,10 +7,14 @@ You can do this via the web interface of GitHub or you can clone the project loc
     * The name of the file does not matter.
     * The extension must be either `.yaml` or `.yml`.
     * I often call it `.github/workflows/ci.yaml`.
-    * For content see a [minimal example](https://github.com/szabgab/github-actions-minimal/blob/main/.github/workflows/ci.yml).
+    * For content see bellow.
 * Commit the changes.
 * If you worked locally on your computer then push the changes to GitHub.
 * Once you did this visit the `Actions` tab of your repository on GitHub. After a few seconds you should see the indication that a job is running and then after a while you will see the results.
+
+{% embed include file="src/examples/workflows/minimal.yml" %}
+
+[repository](https://github.com/szabgab/github-actions-minimal/)
 
 ---
 
