@@ -1,6 +1,6 @@
 # Perl with Makefile.PL
 
-{% embed include file="src/examples/workflows/perl-perldocker-perl-tester.yml" %}
+{% embed include file="src/examples/workflows/perl-makefile-native.yml" %}
 
-[Makefile.PL](https://github.com/szabgab/github-actions-perldocker-perl-tester) with perldocker/perl-tester image.
+[Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile-native)
 
