@@ -1,15 +1,30 @@
-name: Minimal MacOS
+# Use some descriptive name
+name: Minimal macOS Workflow
 
-on: push
+# The events that trigger this workflow.
+on:
+  push:
+  # We added this so we can run the workflow manually as well without making changes.
+  workflow_dispatch:
 
+# One or more jobs to run.
 jobs:
+  # `build`, the name of the job, is arbitrary, you can use any word for the name of your jobs.
   build:
+    # runs-on: the platform (operating system) the job runs on. (e.g. Ubuntu, Windows, Mac)
     runs-on: macos-latest
+
+    # steps - Each step can have a name and it must have a run.
     steps:
+      # name - optional, just a description
     - name: Single step
+      # run - One or more commands executed in a shell.
       run: echo Hello World
 
     - name: Look around
+      # When excuting more command we can use a pipeline | to indicate this.
+      # The goal of the following commands is to show you what is included in the
+      # macos-latest platform.
       run: |
         uname -a
         pwd

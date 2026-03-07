@@ -4,4 +4,4 @@
 
 A sample configuration that runs on macOS (as per the `runs-on` field).
 
-
+[repository](https://github.com/szabgab/github-actions-minimal-macos/)

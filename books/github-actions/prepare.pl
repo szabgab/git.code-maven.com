@@ -9,6 +9,7 @@ my @pairs = (
     ["szabgab", "github-actions-minimal",         "ci.yml", "minimal.yml"],
     ["szabgab", "github-actions-minimal-ubuntu",  "ci.yml", "minimal_ubuntu.yml"],
     ["szabgab", "github-actions-minimal-windows", "ci.yml", "minimal_windows.yml"],
+    ["szabgab", "github-actions-minimal-macos",   "ci.yml", "minimal_macos.yml"],
 );
 
 for my $pair (@pairs) {
