@@ -68,6 +68,8 @@
 
   - [Perl with Makefile.PL](./github-ci/actions-for-perl/perl-with-makefile.md)
   - [Perl with Build.PL](./github-ci/actions-for-perl/perl-with-build-pl.md)
+  - [Perl with Dist::Zilla](./github-ci/actions-for-perl/perl-with-dist-zilla.md)
+
   - [Case studies](./github-ci/actions-for-perl/github-actions-for-per-case-studies.md)
   - [Examples - Perl](./github-ci/actions-for-perl/examples-perl.md)
   - [Perl Tester Docker Image](./github-ci/actions-for-perl/perl-tester-docker-image.md)

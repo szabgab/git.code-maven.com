@@ -32,7 +32,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
     * [The Perl Planetarium](https://perl.theplanetarium.org/)
 
-* [Perl with Dist::Zilla](https://github.com/szabgab/github-actions-perl-dist-zilla/)
 * [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile/)
     Create a job without a matrix where the version number on the image is clearer.
     Then have the one with matrix.
