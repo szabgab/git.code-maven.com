@@ -19,6 +19,7 @@ my @pairs = (
     ["szabgab", "github-actions-crystal",  "ci.yml",  "crystal.yml"],
     ["szabgab", "github-actions-redis",    "ci.yml",  "redis.yml"],
     ["szabgab", "github-actions-solr",     "ci.yml",  "solr.yml"],
+    ["szabgab", "github-actions-mysql",    "ci.yml",  "mysql.yml"],
 );
 
 for my $pair (@pairs) {

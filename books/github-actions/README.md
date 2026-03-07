@@ -40,7 +40,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
     Then have the one with matrix.
     https://hub.docker.com/r/perldocker/perl-tester/
 * [PostgreSQL](https://github.com/szabgab/github-actions-postgresql)
-* [MySQL](https://github.com/szabgab/github-actions-myqql)
 * [Python](https://github.com/szabgab/github-actions-python)
 * [Rust](https://github.com/szabgab/github-actions-rust)
 * [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)

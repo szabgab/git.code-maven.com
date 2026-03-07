@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+#  schedule:
+#    - cron: '42 5 * * *'
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        mysql: ['latest']
+    services:
+      mysql:
+        env:
+          MYSQL_ROOT_PASSWORD: secret
+        image: mysql:${{matrix.mysql}}
+
+    runs-on: ubuntu-latest
+    container: ubuntu:23.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install curl and ping
+        run: |
+          apt-get update
+          apt-get install -y iputils-ping
+          apt-get install -y mysql-client
+
+      - name: ping mysql
+        run: |
+          ping -c 4 mysql
+
+      - name: MySQL CLI
+        run: |
+          set -x
+          echo "SELECT CURRENT_TIME" | mysql -h mysql --password=secret
+          echo "SELECT version()" | mysql -h mysql --password=secret
+
