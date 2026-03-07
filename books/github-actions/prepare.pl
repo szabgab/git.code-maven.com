@@ -27,6 +27,7 @@ my @pairs = (
     ["szabgab", "github-actions-rust", "matrix-with-dtolnay-rust-toolchain.yml",  "matrix-with-dtolnay-rust-toolchain.yml"],
     ["szabgab", "github-actions-dont-run-in-forks",    "ci.yaml",  "dont-run-in-forks.yml"],
     ["szabgab", "github-actions-environment-variables", "ci.yml", "environment-variables.yml"],
+    ["szabgab", "github-actions-restore-and-save",     "ci.yml", "cache.yml"],
 );
 
 for my $pair (@pairs) {
