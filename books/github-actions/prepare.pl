@@ -32,6 +32,7 @@ my @pairs = (
     ["szabgab", "github-actions-perl-build", "ci.yml", "perl-build-pl.yml"],
     ["szabgab", "github-actions-perldocker-perl-tester", "perl_makefile_tester.yml", "perl-perldocker-perl-tester.yml"],
     ["szabgab", "github-actions-perl-dist-zilla", "ci.yml", "perl-dist-zilla.yml"],
+    ["szabgab", "github-actions-perl-with-test-coverage", "ci.yml", "perl-test-coverage.yml"],
     ["szabgab", "github-actions-with-parameters", "ci.yml", "with-parameters.yml"],
 );
 

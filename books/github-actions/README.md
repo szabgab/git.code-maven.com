@@ -31,11 +31,14 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
     * [The Perl Planetarium](https://perl.theplanetarium.org/)
 
-* [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile/)
+* Perl:
     Create a job without a matrix where the version number on the image is clearer.
     Then have the one with matrix.
     https://hub.docker.com/r/perldocker/perl-tester/
-https://github.com/szabgab/github-actions-perl-with-test-coverage/
+
+DBI
+DBD::Pg
+
 
 * [Python](https://github.com/szabgab/github-actions-python)
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)
