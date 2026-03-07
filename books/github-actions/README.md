@@ -43,7 +43,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 * [MySQL](https://github.com/szabgab/github-actions-myqql)
 * [Python](https://github.com/szabgab/github-actions-python)
 * [Rust](https://github.com/szabgab/github-actions-rust)
-* [Solr](https://github.com/szabgab/github-actions-solr)
 * [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)
 * [Run code if file changes](https://github.com/szabgab/github-actions-run-code-if-files-change)
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)

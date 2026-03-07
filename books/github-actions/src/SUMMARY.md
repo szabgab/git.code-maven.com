@@ -55,6 +55,7 @@
   - [Bash](./github-ci/actions/bash.md)
   - [Crystal](./github-ci/actions/crystal.md)
   - [Redis](./github-ci/actions/redis.md)
+  - [Solr](./github-ci/actions/solr.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)

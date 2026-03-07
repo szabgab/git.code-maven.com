@@ -15,9 +15,10 @@ my @pairs = (
     ["szabgab", "github-actions-reusable-workflow",  "reusable.yaml", "reusable_workflow.yml"],
     ["szabgab", "github-actions-reusable-workflow",  "reusing_other_workflow.yaml", "reusing_workflow.yml"],
     ["szabgab", "github-actions-reuse-public-workflow", "reusing_other_workflow.yaml", "reusing_other_workflow.yml"],
-    ["szabgab", "github-actions-bash",  "ci.yml",  "bash.yml"],
+    ["szabgab", "github-actions-bash",     "ci.yml",  "bash.yml"],
     ["szabgab", "github-actions-crystal",  "ci.yml",  "crystal.yml"],
-    ["szabgab", "github-actions-redis",  "ci.yml",  "redis.yml"],
+    ["szabgab", "github-actions-redis",    "ci.yml",  "redis.yml"],
+    ["szabgab", "github-actions-solr",     "ci.yml",  "solr.yml"],
 );
 
 for my $pair (@pairs) {
