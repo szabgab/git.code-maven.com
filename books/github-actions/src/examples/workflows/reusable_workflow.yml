@@ -1,0 +1,16 @@
+name: Reusable
+
+on:
+  workflow_call:     # to make it reusable
+  #workflow_dispatch: # to allow manual triggering via the UI of Github
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: Generate
+
+    steps:
+    - name: Generate
+      run: |
+        echo A reusable workflow
+

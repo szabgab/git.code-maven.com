@@ -4,5 +4,4 @@
 
 {% embed include file="src/examples/workflows/needs_generate.yml" %}
 
-
 * [repository](https://github.com/szabgab/github-actions-needs/)
