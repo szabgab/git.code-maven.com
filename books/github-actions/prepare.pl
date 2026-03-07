@@ -10,6 +10,8 @@ my @pairs = (
     ["szabgab", "github-actions-minimal-ubuntu",  "ci.yml", "minimal_ubuntu.yml"],
     ["szabgab", "github-actions-minimal-windows", "ci.yml", "minimal_windows.yml"],
     ["szabgab", "github-actions-minimal-macos",   "ci.yml", "minimal_macos.yml"],
+    ["szabgab", "github-actions-needs",           "ci.yaml", "needs.yml"],
+    ["szabgab", "github-actions-needs",           "generate.yaml", "needs_generate.yml"],
 );
 
 for my $pair (@pairs) {
@@ -17,6 +19,8 @@ for my $pair (@pairs) {
     if ($ENV{CI}) {
         system "curl --silent https://raw.githubusercontent.com/$owner/$repo/refs/heads/main/.github/workflows/$remote --output src/examples/workflows/$local";
     } else {
-        copy "$ROOT/$repo/.github/workflows/$remote", "src/examples/workflows/$local";
+        my $from = "$ROOT/$repo/.github/workflows/$remote";
+        my $to = "src/examples/workflows/$local";
+        copy $from, $to or die "Could not copy '$from' to '$to'";
     }
 }

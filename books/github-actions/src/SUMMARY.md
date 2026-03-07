@@ -50,6 +50,7 @@
   - [GitHub Workflows](./github-ci/actions/github-workflows.md)
   - [List of files changed](./github-ci/actions/list-files-changed.md)
   - [Avoid duplicate triggers](./github-ci/actions/avoid-duplicate-triggers.md)
+  - [Needs](./github-ci/actions/needs.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)

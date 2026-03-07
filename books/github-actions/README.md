@@ -60,7 +60,6 @@ Minimal Ubuntu
 * [Create Reusable Github Action workflow](https://github.com/szabgab/github-actions-reusable-workflow) and use it in another workflow file
 * [Reuse a GitHub Action workflow](https://github.com/szabgab/github-actions-reuse-public-workflow) from another (public) repository.
 
-* [GitHub jobs and workflows depending on each other](https://github.com/szabgab/github-actions-needs/)
 
 
 * [Try others](https://github.com/szabgab/try-github-actions/)

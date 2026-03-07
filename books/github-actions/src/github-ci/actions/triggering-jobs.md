@@ -1,30 +1,31 @@
 # Triggering jobs
 
-* `on`
+* The required `on` keyword describes the [events that trigger workflows](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows).
 
-* [Event triggers](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+## Single event
 
-* Single event
+If the workflow is triggered by a single event then you can write it like this:
 
-```
+```yaml
 on: push
 ```
 
-* Multiple events
+## Multiple events
 
-```
-on: [push, pull_request]
+If you'd like to configure multiple events, you have several ways to do that.
+
+```yaml
+on: [push, pull_request, workflow_dispatch]
 ```
 
-Also:
+You can also write:
 
-```
+```yaml
 on:
     push:
     pull_request:
     workflow_dispatch:
 ```
-
 
 * Run on "push" in every branch.
 * Run on "pull_request" if it was sent to the "dev" branch.
