@@ -17,6 +17,7 @@ my @pairs = (
     ["szabgab", "github-actions-reuse-public-workflow", "reusing_other_workflow.yaml", "reusing_other_workflow.yml"],
     ["szabgab", "github-actions-bash",  "ci.yml",  "bash.yml"],
     ["szabgab", "github-actions-crystal",  "ci.yml",  "crystal.yml"],
+    ["szabgab", "github-actions-redis",  "ci.yml",  "redis.yml"],
 );
 
 for my $pair (@pairs) {

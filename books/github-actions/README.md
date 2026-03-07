@@ -42,7 +42,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 * [PostgreSQL](https://github.com/szabgab/github-actions-postgresql)
 * [MySQL](https://github.com/szabgab/github-actions-myqql)
 * [Python](https://github.com/szabgab/github-actions-python)
-* [Redis](https://github.com/szabgab/github-actions-redis)
 * [Rust](https://github.com/szabgab/github-actions-rust)
 * [Solr](https://github.com/szabgab/github-actions-solr)
 * [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)
