@@ -32,8 +32,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
     * [The Perl Planetarium](https://perl.theplanetarium.org/)
 
-Minimal Ubuntu
-* [Bash](https://github.com/szabgab/github-actions-bash)
 * [Crystal](https://github.com/szabgab/github-actions-crystal)
 * [Perl with Build.PL](https://github.com/szabgab/github-actions-perl-build/)
 * [Perl with Dist::Zilla](https://github.com/szabgab/github-actions-perl-dist-zilla/)

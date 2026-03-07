@@ -52,6 +52,7 @@
   - [Avoid duplicate triggers](./github-ci/actions/avoid-duplicate-triggers.md)
   - [Needs](./github-ci/actions/needs.md)
   - [Reuse public workflow](./github-ci/actions/reuse-public-workflow.md)
+  - [Bash](./github-ci/actions/bash.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)
