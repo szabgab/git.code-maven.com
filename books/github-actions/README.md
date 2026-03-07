@@ -41,7 +41,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
     https://hub.docker.com/r/perldocker/perl-tester/
 * [Python](https://github.com/szabgab/github-actions-python)
 * [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)
-* [Run code if file changes](https://github.com/szabgab/github-actions-run-code-if-files-change)
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)
 
 * [Run only on the main branch and the pr/* branches](https://github.com/szabgab/github-actions-for-pr-branches) to reduce CI runs in the organization, but allow CI runs for contributors in their forks

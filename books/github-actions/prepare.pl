@@ -28,6 +28,7 @@ my @pairs = (
     ["szabgab", "github-actions-dont-run-in-forks",    "ci.yaml",  "dont-run-in-forks.yml"],
     ["szabgab", "github-actions-environment-variables", "ci.yml", "environment-variables.yml"],
     ["szabgab", "github-actions-restore-and-save",     "ci.yml", "cache.yml"],
+    ["szabgab", "github-actions-run-code-if-files-change",     "ci.yml", "run-code-if-file-changes.yml"],
 );
 
 for my $pair (@pairs) {
