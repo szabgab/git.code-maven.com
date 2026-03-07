@@ -62,6 +62,7 @@
   - [Cache restore and save](./github-ci/actions/cache.md)
   - [Run code if file changes](./github-ci/actions/run-code-if-files-changes.md)
   - [GitHub Actions with parameters](./github-ci/actions/with-parameters.md)
+  - [Incremental caching using S3 compatibale object storage of Linode](./github-ci/actions/caching-using-s3-linode.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)

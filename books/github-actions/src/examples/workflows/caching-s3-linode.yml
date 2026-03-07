@@ -1,0 +1,49 @@
+name: Save and Restore
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: prepare
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y s3cmd
+          echo "[default]" > s3cfg.ini
+          echo "host_base = us-southeast-1.linodeobjects.com" >> s3cfg.ini
+          echo "host_bucket = us-southeast-1.linodeobjects.com" >> s3cfg.ini
+          echo "access_key = ${{ secrets.ACCESS_KEY }}" >> s3cfg.ini
+          echo "secret_key = ${{ secrets.SECRET_KEY }}" >> s3cfg.ini
+
+      #- name: listing
+      #  run: |
+      #    echo restore
+      #    s3cmd --config=s3cfg.ini ls s3://diggers/
+
+      # I had to put in an external script as GitHub runs the shell commands using the -e flag
+      # meaning if any of the commands fails then the whole step fails.
+      # The resote will fail the first time it run as there is still nothing to restore.
+      # So now we sweep in under the carpet.
+      # In a better solution we would look at the exit code and have a configuration option to
+      # disregard this failure.
+      - name: restore
+        run: ./restore.sh
+
+      - name: Pretend to add more data...
+        run: |
+          mkdir -p data
+          date >> data/time.txt
+          cat data/time.txt
+
+      - name: save
+        run: |
+          echo save
+          s3cmd --config=s3cfg.ini put data/time.txt s3://diggers/
+

@@ -34,6 +34,7 @@ my @pairs = (
     ["szabgab", "github-actions-perl-dist-zilla", "ci.yml", "perl-dist-zilla.yml"],
     ["szabgab", "github-actions-perl-with-test-coverage", "ci.yml", "perl-test-coverage.yml"],
     ["szabgab", "github-actions-with-parameters", "ci.yml", "with-parameters.yml"],
+    ["szabgab", "github-actions-with-linode-s3", "ci.yml", "caching-s3-linode.yml"],
 );
 
 for my $pair (@pairs) {

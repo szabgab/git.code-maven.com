@@ -38,13 +38,11 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
 DBI
 DBD::Pg
-
+Test::Class
 
 * [Python](https://github.com/szabgab/github-actions-python)
-* [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)
 
 * [Run only on the main branch and the pr/* branches](https://github.com/szabgab/github-actions-for-pr-branches) to reduce CI runs in the organization, but allow CI runs for contributors in their forks
-
 
 
 * [Try others](https://github.com/szabgab/try-github-actions/)
