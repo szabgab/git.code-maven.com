@@ -65,7 +65,9 @@
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)
   - [CPAN Testers](./github-ci/actions-for-perl/cpan-testers.md)
+
   - [Perl with Makefile.PL](./github-ci/actions-for-perl/perl-with-makefile.md)
+  - [Perl with Build.PL](./github-ci/actions-for-perl/perl-with-build-pl.md)
   - [Case studies](./github-ci/actions-for-perl/github-actions-for-per-case-studies.md)
   - [Examples - Perl](./github-ci/actions-for-perl/examples-perl.md)
   - [Perl Tester Docker Image](./github-ci/actions-for-perl/perl-tester-docker-image.md)

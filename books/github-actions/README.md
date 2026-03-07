@@ -32,7 +32,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
     * [The Perl Planetarium](https://perl.theplanetarium.org/)
 
-* [Perl with Build.PL](https://github.com/szabgab/github-actions-perl-build/)
 * [Perl with Dist::Zilla](https://github.com/szabgab/github-actions-perl-dist-zilla/)
 * [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile/)
 * [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perldocker-perl-tester) using perldocker/perl-tester image

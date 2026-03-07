@@ -29,6 +29,7 @@ my @pairs = (
     ["szabgab", "github-actions-environment-variables", "ci.yml", "environment-variables.yml"],
     ["szabgab", "github-actions-restore-and-save",     "ci.yml", "cache.yml"],
     ["szabgab", "github-actions-run-code-if-files-change",     "ci.yml", "run-code-if-file-changes.yml"],
+    ["szabgab", "github-actions-perl-build", "ci.yml", "perl-build-pl.yml"],
 );
 
 for my $pair (@pairs) {
