@@ -1,0 +1,47 @@
+name: CI
+
+# Don't run in forked repositories
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if running in a fork
+        run: |
+          if [ "${{ github.repository_owner }}" != "Code-Maven" ]; then
+            echo "Running in a forked repository"
+          else
+            echo "Running in the original repository"
+          fi
+
+          # Convert to lower-case
+          OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          if [ "$OWNER" != "code-maven" ]; then
+            echo "Running in a forked repository"
+          else
+            echo "Running in the original repository"
+          fi
+
+      - name: Run only in the "real" repository
+        if: ${{ github.repository_owner == 'Code-Maven' }}
+        run: |
+          echo "Running in the original repository"
+
+      - name: Run only in a forked repository
+        if: ${{ github.repository_owner != 'Code-Maven' }}
+        run: |
+          echo "Running in a forked repository owned by ${{ github.repository_owner }}"
+
+  deploy:
+    if: ${{ github.repository_owner == 'Code-Maven' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run only in the "real" repository
+        run: |
+          echo "Running in the original repository"
+

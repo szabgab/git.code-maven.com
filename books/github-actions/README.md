@@ -45,7 +45,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)
 * [Cache restore and save](https://github.com/szabgab/github-actions-restore-and-save) (not doing what I wanted)
 * [Environment variables](https://github.com/szabgab/github-actions-environment-variables)
-* [Check the owner](https://github.com/Code-Maven/github-actions-dont-run-in-forks/) - don't run in forks.
 
 * [Run only on the main branch and the pr/* branches](https://github.com/szabgab/github-actions-for-pr-branches) to reduce CI runs in the organization, but allow CI runs for contributors in their forks
 

@@ -58,6 +58,7 @@
   - [Solr](./github-ci/actions/solr.md)
   - [MySQL](./github-ci/actions/mysql.md)
   - [PostgreSQL](./github-ci/actions/postgresql.md)
+  - [Don't run in forks](./github-ci/actions/dont-run-in-forks.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)
