@@ -1,0 +1,41 @@
+name: Shell
+
+on:
+  workflow_dispatch:
+    inputs:
+         logLevel:
+           description: 'Log level'
+           required: true
+           default: 'warning'
+           type: choice
+           options:
+           - info
+           - warning
+           - debug
+         tags:
+           description: 'Test scenario tags'
+           required: false
+           type: boolean
+         environment:
+           description: 'Environment to run tests against'
+           type: string
+           required: true
+         parallel:
+           description: Number of processes in paralle
+           type: number
+           default: 1
+           required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - name: Show parameters
+        run: |
+          echo Parameters
+          echo "Tags: ${{ inputs.tags }}"
+          echo "Environment: ${{ inputs.environment }}"
+          echo "logLevel: ${{ inputs.logLevel }}"
+          echo "parallel: ${{ inputs.parallel }}"
+

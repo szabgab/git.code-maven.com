@@ -29,7 +29,6 @@ TODO: Add section on setting up my own runner on
 
 Link to ? https://code-maven.com/github-actions or shall I move the content to git.code-maven.com ?
 
-
     * [The Perl Planetarium](https://perl.theplanetarium.org/)
 
 * [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile/)
@@ -39,7 +38,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 https://github.com/szabgab/github-actions-perl-with-test-coverage/
 
 * [Python](https://github.com/szabgab/github-actions-python)
-* [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)
 
 * [Run only on the main branch and the pr/* branches](https://github.com/szabgab/github-actions-for-pr-branches) to reduce CI runs in the organization, but allow CI runs for contributors in their forks
