@@ -21,6 +21,10 @@ my @pairs = (
     ["szabgab", "github-actions-solr",     "ci.yml",  "solr.yml"],
     ["szabgab", "github-actions-mysql",    "ci.yml",  "mysql.yml"],
     ["szabgab", "github-actions-postgresql", "ci.yml",  "postgresql.yml"],
+    ["szabgab", "github-actions-rust", "default-macos.yml",  "rust-default-macos.yml"],
+    ["szabgab", "github-actions-rust", "default-ubuntu.yml",  "rust-default-ubuntu.yml"],
+    ["szabgab", "github-actions-rust", "default-windows.yml",  "rust-default-windows.yml"],
+    ["szabgab", "github-actions-rust", "matrix-with-dtolnay-rust-toolchain.yml",  "matrix-with-dtolnay-rust-toolchain.yml"],
 );
 
 for my $pair (@pairs) {
