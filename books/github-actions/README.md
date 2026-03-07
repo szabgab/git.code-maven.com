@@ -34,10 +34,11 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
 * [Perl with Dist::Zilla](https://github.com/szabgab/github-actions-perl-dist-zilla/)
 * [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile/)
-* [Perl with Makefile.PL](https://github.com/szabgab/github-actions-perldocker-perl-tester) using perldocker/perl-tester image
     Create a job without a matrix where the version number on the image is clearer.
     Then have the one with matrix.
     https://hub.docker.com/r/perldocker/perl-tester/
+https://github.com/szabgab/github-actions-perl-with-test-coverage/
+
 * [Python](https://github.com/szabgab/github-actions-python)
 * [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)

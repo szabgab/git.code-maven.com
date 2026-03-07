@@ -30,6 +30,7 @@ my @pairs = (
     ["szabgab", "github-actions-restore-and-save",     "ci.yml", "cache.yml"],
     ["szabgab", "github-actions-run-code-if-files-change",     "ci.yml", "run-code-if-file-changes.yml"],
     ["szabgab", "github-actions-perl-build", "ci.yml", "perl-build-pl.yml"],
+    ["szabgab", "github-actions-perldocker-perl-tester", "perl_makefile_tester.yml", "perl-perldocker-perl-tester.yml"],
 );
 
 for my $pair (@pairs) {
