@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+#  schedule:
+#    - cron: '42 5 * * *'
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        postgres: ['latest']
+    services:
+      postgres:
+        image: postgres:${{matrix.postgres}}
+        env:
+          POSTGRES_USER: username
+          POSTGRES_PASSWORD: secret
+          POSTGRES_DB: mydb
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    runs-on: ubuntu-latest
+    container: ubuntu:22.10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install curl and ping
+        run: |
+          apt-get update
+          apt-get install -y iputils-ping
+          apt-get install -y postgresql-client
+
+      - name: ping postgres
+        run: |
+          ping -c 4 postgres
+
+      - name: PostgreSQL CLI psql
+        env:
+          PGPASSWORD: secret
+        run: |
+          set -x
+          echo "SELECT CURRENT_TIME" | psql -h postgres -U username mydb
+          echo "SELECT version()" | psql -h postgres -U username mydb
+

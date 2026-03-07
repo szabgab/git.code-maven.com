@@ -57,6 +57,7 @@
   - [Redis](./github-ci/actions/redis.md)
   - [Solr](./github-ci/actions/solr.md)
   - [MySQL](./github-ci/actions/mysql.md)
+  - [PostgreSQL](./github-ci/actions/postgresql.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)
