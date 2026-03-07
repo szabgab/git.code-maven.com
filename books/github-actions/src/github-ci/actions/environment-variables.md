@@ -6,11 +6,12 @@
 * [Using secrets in GitHub Actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
 * `GITHUB_*` are reserved.
 
-```
+```yaml
 env:
    DEMO_FIELD: value
 ```
 
-* [Demo Environment variables](https://github.com/szabgab/github-actions-environment-variables)
+{% embed include file="src/examples/workflows/environment-variables.yml" %}
 
 
+[repository](https://github.com/szabgab/github-actions-environment-variables)

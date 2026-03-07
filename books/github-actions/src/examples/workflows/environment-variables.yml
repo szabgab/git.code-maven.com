@@ -1,0 +1,25 @@
+name: Environment Variables
+
+on:
+  push:
+  workflow_dispatch:
+
+env:
+  DEMO: Foo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Show all the environment variables set by GitHub Actions
+      run: printenv | sort
+
+    - name: Show the environment variable we set in the job
+      run: |
+        echo $DEMO
+
+    - name: Show the environment variable we set inside this step
+      env:
+         DEMO: Bar
+      run: |
+        echo $DEMO
