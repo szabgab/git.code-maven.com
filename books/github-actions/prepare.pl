@@ -65,7 +65,25 @@ sub check_all {
     closedir $dh or die;
     for my $repo (@projects) {
         die "$repo is not used" if not $map{$repo};
+        opendir my $dh, "$ROOT/$repo/.github/workflows" or die;
+        my @files = grep {$_ ne '.' and $_ ne '..'} readdir $dh;
+        closedir $dh or die;
+        for my $file (@files) {
+            die "$file in $repo is not used" if not $map{$repo}{$file};
+        }
+
+        die "no dependabot in $repo" if not -e "$ROOT/$repo/.github/dependabot.yml";
+        # TODO check the content of dependabot.
+
+
+        #  has correct README.md?
+        die "no README.md in $repo" if not -e "$ROOT/$repo/README.md";
+        #open my $fh, "<", "$ROOT/$repo/README.md" or die;
+        #my @lines = <$fh>;
+        #close $fh;
+        #die "Not 4 lines in README of $repo" if scalar (@lines) != 4;
     }
+
 }
 
 
