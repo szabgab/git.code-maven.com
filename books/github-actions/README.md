@@ -41,8 +41,13 @@ DBD::Pg
 Test::Class
 
 
-* [Run only on the main branch and the pr/* branches](https://github.com/szabgab/github-actions-for-pr-branches) to reduce CI runs in the organization, but allow CI runs for contributors in their forks
 
 
 * [Try others](https://github.com/szabgab/try-github-actions/)
+
+
+* Show default run using Docker images
+* Terraform ?
+* Go over all the recommended workflows
+
 

@@ -1,0 +1,27 @@
+name: Manually
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Manual
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 6
+
+      - name: Changed files
+        run: |
+          echo 2
+          git diff --name-only HEAD~2
+          echo 5
+          git diff --name-only HEAD~5
+
+          # This will fail because not enough commits
+          #echo 6
+          #git diff --name-only HEAD~6
+
