@@ -93,6 +93,7 @@
   - [Python with Matrix](./github-ci/actions-for-python/github-actions-python-matrix.md)
 
 - [GitHub Actions for Rust](./github-ci/actions-for-rust/index.md)
+  - [Rust with test coverage](./github-ci/actions-for-rust/test-coverage.md)
 
 - [GitHub Actions for NodeJS](./github-ci/actions-for-nodejs/index.md)
   - [NodeJS and OS matrix](./github-ci/actions-for-nodejs/nodejs-os-matrix.md)

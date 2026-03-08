@@ -1,0 +1,66 @@
+name: Parallel running
+
+on:
+  push:
+
+jobs:
+  test_a:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step A1
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+    - name: Step A2
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+  test_b:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step B1
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+    - name: Step B2
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+  test_c:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step C1
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+    - name: Step C2
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+  test_d:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step D1
+      run: |
+        echo start
+        sleep 10
+        echo end
+
+    - name: Step D2
+      run: |
+        echo start
+        sleep 10
+        echo end
+

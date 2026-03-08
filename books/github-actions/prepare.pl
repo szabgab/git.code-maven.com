@@ -37,16 +37,19 @@ my @pairs = (
     ["szabgab", "github-actions-perl-with-test-coverage", "ci.yml", "perl-test-coverage.yml"],
     ["szabgab", "github-actions-with-parameters", "ci.yml", "with-parameters.yml"],
     ["szabgab", "github-actions-with-linode-s3", "ci.yml", "caching-s3-linode.yml"],
-
     ["szabgab", "github-actions-python", "ci.yml", "python_matrix.yml"],
     ["szabgab", "github-actions-for-pr-branches", "ci.yml", "for-pr-branches.yml"],
     ["szabgab", "github-actions-demo-20260308",    "blank.yml", "demo-20260308.yml"],
     ["szabgab", "github-actions-list-files-changed", "using_changed_files_action.yml", "list-files-changed.yml"],
     ["szabgab", "github-actions-list-files-changed", "manual.yml", "list-files-changed-manual.yml"],
+    ["szabgab", "github-actions-parallel",           "ci.yml", "parallel-ci.yml"],
+    ["szabgab", "github-actions-parallel",           "matrix.yml", "parallel-matrix.yml"],
+    ["szabgab", "github-actions-rust-with-test-coverage", "default-ubuntu.yml", "rust-test-coverage-default-ubuntu.yml"],
+    ["szabgab", "github-actions-rust-with-test-coverage", "matrix-with-dtolnay-rust-toolchain.yml", "rust-test-coverage-matrix-with-dtolnay-rust-toolchain.yml"],
 );
 
 copy_files();
-#check_all();
+check_all();
 
 sub check_all {
     say "Check all";
