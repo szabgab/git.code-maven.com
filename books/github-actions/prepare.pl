@@ -40,13 +40,19 @@ my @pairs = (
     ["szabgab", "github-actions-python", "ci.yml", "python_matrix.yml"],
 );
 
-for my $pair (@pairs) {
-    my ($owner, $repo, $remote, $local) = @$pair;
-    if ($ENV{CI}) {
-        system "curl --silent https://raw.githubusercontent.com/$owner/$repo/refs/heads/main/.github/workflows/$remote --output src/examples/workflows/$local";
-    } else {
-        my $from = "$ROOT/$repo/.github/workflows/$remote";
-        my $to = "src/examples/workflows/$local";
-        copy $from, $to or die "Could not copy '$from' to '$to'";
+copy_files();
+
+
+sub copy_files {
+    say "Copy files";
+    for my $pair (@pairs) {
+        my ($owner, $repo, $remote, $local) = @$pair;
+        if ($ENV{CI}) {
+            system "curl --silent https://raw.githubusercontent.com/$owner/$repo/refs/heads/main/.github/workflows/$remote --output src/examples/workflows/$local";
+        } else {
+            my $from = "$ROOT/$repo/.github/workflows/$remote";
+            my $to = "src/examples/workflows/$local";
+            copy $from, $to or die "Could not copy '$from' to '$to'";
+        }
     }
 }
