@@ -66,6 +66,7 @@
   - [Incremental caching using S3 compatibale object storage of Linode](./github-ci/actions/caching-using-s3-linode.md)
   - [Run only on the main branch and the pr/* branches](./github-ci/actions/run-only-on-main-branch.md)
   - [2026.03.08](./github-ci/actions/20260308.md)
+  - [Experiment with GitHub actions](./github-ci/actions/experiment.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)

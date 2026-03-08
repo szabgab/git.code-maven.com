@@ -41,11 +41,6 @@ DBD::Pg
 Test::Class
 
 
-
-
-* [Try others](https://github.com/szabgab/try-github-actions/)
-
-
 * Show default run using Docker images
 * Terraform ?
 * Go over all the recommended workflows
