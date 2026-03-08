@@ -21,6 +21,7 @@
   - [Minimal Ubuntu Linux configuration](./github-ci/actions/minimal-linux-configuration.md)
   - [Minimal Windows configuration](./github-ci/actions/minimal-windows-configuration.md)
   - [Minimal MacOS configuration](./github-ci/actions/minimal-mac-configuration.md)
+  - [Minimal Docker configuration (for python)](./github-ci/actions/minimal-docker-configuration.md)
   - [Name of a workflow](./github-ci/actions/name-of-workflow.md)
   - [Triggering jobs](./github-ci/actions/triggering-jobs.md)
   - [Environment variables](./github-ci/actions/environment-variables.md)

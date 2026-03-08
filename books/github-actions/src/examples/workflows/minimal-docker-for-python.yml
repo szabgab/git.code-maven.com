@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+#  schedule:
+#    - cron: '42 5 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.14
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Look around
+        run: |
+          uname -a
+          python -V
+

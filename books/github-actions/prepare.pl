@@ -38,6 +38,7 @@ my @pairs = (
     ["szabgab", "github-actions-with-parameters", "ci.yml", "with-parameters.yml"],
     ["szabgab", "github-actions-with-linode-s3", "ci.yml", "caching-s3-linode.yml"],
     ["szabgab", "github-actions-python", "ci.yml", "python_matrix.yml"],
+    ["szabgab", "github-actions-minimal-docker-for-python", "ci.yml", "minimal-docker-for-python.yml"],
     ["szabgab", "github-actions-for-pr-branches", "ci.yml", "for-pr-branches.yml"],
     ["szabgab", "github-actions-demo-20260308",    "blank.yml", "demo-20260308.yml"],
     ["szabgab", "github-actions-list-files-changed", "using_changed_files_action.yml", "list-files-changed.yml"],
