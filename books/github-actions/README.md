@@ -1,7 +1,7 @@
 
 Workflow:
    dev - branch
-   pull-reques will run all the tests and merge into "dev" branch only if it is a fast-forward
+   pull-request will run all the tests and merge into "dev" branch only if it is a fast-forward
 
 TODO: link to these examples
 TODO: Add dependabot to these repos so they will be up to date.

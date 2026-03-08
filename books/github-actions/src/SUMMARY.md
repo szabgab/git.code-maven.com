@@ -2,14 +2,14 @@
 
 - [GitHub Workflows and GitHub Actions](./index.md)
 
-- [Continuous Integration](./github-ci/introduction/index.md)
+- [A little background](./github-ci/introduction/index.md)
   - [What is Git](./github-ci/introduction/git.md)
   - [What is GitHub](./github-ci/introduction/github.md)
   - [CI - Continuous Integration](./github-ci/introduction/ci.md)
   - [When to run?](./github-ci/introduction/when-to-run.md)
   - [What to run?](./github-ci/introduction/what-to-run.md)
   - [CD - Continuous Delivery (or Deployment)](./github-ci/introduction/cd.md)
-  - [Cloud-based CI system](./github-ci/introduction/cloud-based-ci.md)
+  - [Cloud-based CI systems](./github-ci/introduction/cloud-based-ci.md)
   - [Exercises](./github-ci/introduction/exercises.md)
 
 - [GitHub Actions](./github-ci/actions/index.md)
