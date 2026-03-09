@@ -2,7 +2,7 @@ name: Install Linux packages
 
 on:
   push:
-    branches: '*'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,8 +12,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6
 
+    - name: Before
+      run: |
+        which black || echo black is missing
+
     - name: Install package
       run: |
-        sudo apt-get -y install tree
-        which tree
+        sudo apt-get -y install black
+
+    - name: Try black
+      run: black .
+      # Use `black --check .` to verify the formatting and make the CI fail if it needs updating.needs updating.
+
+    - name: diff
+      run: git diff
 

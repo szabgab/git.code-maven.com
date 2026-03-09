@@ -45,4 +45,7 @@ Test::Class
 * Terraform ?
 * Go over all the recommended workflows
 
+* dependabot configurations
+* Setup CI to allow running in main branch and in contrib/* branches on push
+
 

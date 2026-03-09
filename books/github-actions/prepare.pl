@@ -48,6 +48,7 @@ my @pairs = (
     ["szabgab", "github-actions-rust-with-test-coverage", "default-ubuntu.yml", "rust-test-coverage-default-ubuntu.yml"],
     ["szabgab", "github-actions-rust-with-test-coverage", "matrix-with-dtolnay-rust-toolchain.yml", "rust-test-coverage-matrix-with-dtolnay-rust-toolchain.yml"],
     ["szabgab", "try-github-actions",           "experiment.yml", "experiment.yml"],
+    ["szabgab", "github-actions-install-packages-on-ubuntu", "ci.yml", "install-linux-packages.yml"],
 );
 
 copy_files();
