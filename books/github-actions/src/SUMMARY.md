@@ -85,7 +85,6 @@
   - [Perl with Dist::Zilla](./github-ci/actions-for-perl/perl-with-dist-zilla.md)
   - [Perl with Test coverage report](./github-ci/actions-for-perl/perl-test-coverage-report.md)
 
-  - [Case studies](./github-ci/actions-for-perl/github-actions-for-per-case-studies.md)
   - [Examples - Perl](./github-ci/actions-for-perl/examples-perl.md)
   - [Perl Tester Docker Image](./github-ci/actions-for-perl/perl-tester-docker-image.md)
   - [CI Perl Tester Helpers](./github-ci/actions-for-perl/ci-perl-tester-helpers.md)

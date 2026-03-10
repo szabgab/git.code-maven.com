@@ -60,6 +60,7 @@ my @pairs = (
     ["szabgab", "github-actions-scheduled", "ci.yml", "scheduled.yml"],
     ["szabgab", "github-actions-matrix-envrionment-variables", "ci.yml", "matrix_env_vars.yml"],
     ["szabgab", "github-actions-change-directory", "ci.yml", "change_directory.yml"],
+    ["szabgab", "github-actions-perl-os-matrix",   "ci.yml", "perl-os-matrix.yml"],
 );
 
 copy_files();
