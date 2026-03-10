@@ -1,6 +1,8 @@
 name: Matrix environment variables
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:

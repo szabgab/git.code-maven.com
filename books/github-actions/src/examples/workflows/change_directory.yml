@@ -1,0 +1,28 @@
+name: cd
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v6
+
+    - name: Experiment
+      run: |
+        pwd
+        # /home/runner/work/github-actions-change-directory/github-actions-change-directory
+        mkdir hello
+        cd hello
+        pwd
+        # /home/runner/work/github-actions-change-directory/github-actions-change-directory/hello
+
+    - name: In another step
+      run: |
+        pwd
+        # /home/runner/work/github-actions-change-directory/github-actions-change-directory
+

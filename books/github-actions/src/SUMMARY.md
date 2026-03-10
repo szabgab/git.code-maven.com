@@ -25,7 +25,6 @@
   - [Name of a workflow](./github-ci/actions/name-of-workflow.md)
   - [Triggering jobs](./github-ci/actions/triggering-jobs.md)
   - [Environment variables](./github-ci/actions/environment-variables.md)
-  - [Matrix (env vars)](./github-ci/actions/matrix.md)
   - [GitHub Action Parallel Jobs](./github-ci/actions/jobs.md)
   - [GitHub Actions - Runners - runs-on](./github-ci/actions/github-actions-jobs-runs-on.md)
   - [Scheduled runs](./github-ci/actions/scheduled-runs.md)
@@ -33,9 +32,9 @@
   - [Disable GitHub Action workflow](./github-ci/actions/disable-github-action-workflow.md)
   - [Disable a single GitHub Action job](./github-ci/actions/disable-single-github-action-job.md)
   - [Disable a single step in a GitHub Action job](./github-ci/actions/disable-step-in-github-action.md)
-  - [Available GitHub actions](./github-ci/actions/available-github-actions.md)
   - [Create multiline file in GitHub Action](./github-ci/actions/create-multiline-file-in-github-actions.md)
   - [OS Matrix (Windows, Linux, Mac OSX)](./github-ci/actions/os-matrix.md)
+  - [Matrix (env vars)](./github-ci/actions/matrix.md)
   - [Change directory in GitHub Actions](./github-ci/actions/change-directory-in-github-actions.md)
   - [Install packages on Ubuntu Linux in GitHub Actions](./github-ci/actions/install-packages-on-ubuntu-linux-in-github-actions.md)
   - [Generate GitHub pages using GitHub Actions](./github-ci/actions/generate-github-pages.md)
@@ -63,18 +62,13 @@
   - [Run only on the main branch and the pr/* branches](./github-ci/actions/run-only-on-main-branch.md)
   - [Experiment with GitHub actions](./github-ci/actions/experiment.md)
 
-- [Previous Sessions](./github-ci/actions/previous-sessions.md)
-  - [2020.10.29](./github-ci/actions/20201029.md)
-  - [2020.12.24](./github-ci/actions/20201224.md)
-  - [2026.03.08](./github-ci/actions/20260308.md)
+- [Available GitHub actions](./github-ci/actions/available-github-actions.md)
 
 - [GitHub Actions with service](./github-ci/actions/github-actions-service.md)
   - [Redis](./github-ci/actions/redis.md)
   - [Solr](./github-ci/actions/solr.md)
   - [MySQL](./github-ci/actions/mysql.md)
   - [PostgreSQL](./github-ci/actions/postgresql.md)
-
-- [GitHub Actions case studies](./github-ci/actions/github-actions-examples.md)
 
 - [Reusabel GitHub Actions](./github-ci/actions/reusable-github-actions.md)
 
@@ -115,5 +109,12 @@
 
 - [Coveralls](./github-ci/coveralls/index.md)
   - [About Coveralls](./github-ci/coveralls/about-coveralls.md)
+
+- [GitHub Actions case studies](./github-ci/actions/github-actions-examples.md)
+
+- [Previous Sessions](./github-ci/actions/previous-sessions.md)
+  - [2020.10.29](./github-ci/actions/20201029.md)
+  - [2020.12.24](./github-ci/actions/20201224.md)
+  - [2026.03.08](./github-ci/actions/20260308.md)
 
 

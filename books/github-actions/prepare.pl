@@ -58,6 +58,8 @@ my @pairs = (
     ["szabgab", "github-actions-install-packages-on-ubuntu", "ci.yml", "install-linux-packages.yml"],
     ["szabgab", "github-actions-conditional", "ci.yml", "conditional.yml"],
     ["szabgab", "github-actions-scheduled", "ci.yml", "scheduled.yml"],
+    ["szabgab", "github-actions-matrix-envrionment-variables", "ci.yml", "matrix_env_vars.yml"],
+    ["szabgab", "github-actions-change-directory", "ci.yml", "change_directory.yml"],
 );
 
 copy_files();
