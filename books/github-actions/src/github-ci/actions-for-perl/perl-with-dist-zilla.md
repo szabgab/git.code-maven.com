@@ -2,5 +2,5 @@
 
 {% embed include file="src/examples/workflows/perl-dist-zilla.yml" %}
 
-* [Perl with Dist::Zilla](https://github.com/szabgab/github-actions-perl-dist-zilla/)
+* [repository](https://github.com/szabgab/github-actions-perl-dist-zilla/)
 

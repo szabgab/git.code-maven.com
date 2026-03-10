@@ -1,6 +1,8 @@
 name: OS and Perl Matrix
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,6 +27,18 @@ jobs:
           perl-version: ${{ matrix.perl }}
           #distribution: strawberry
 
+#    - name: Set up perl on Windows
+#      if: ${{ startsWith( matrix.runner, 'windows-' )  }}
+#      uses: shogo82148/actions-setup-perl@v1
+#      with:
+#          perl-version: ${{ matrix.perl }}
+#          distribution: ${{ ( startsWith( matrix.runner, 'windows-' ) && 'strawberry' ) || 'default' }}
+
+    - name: Show Perl Version
+      run: |
+        perl -v
+
+
     - name: View environment
       run: |
         uname -a
@@ -39,4 +53,10 @@ jobs:
     - name: Install module
       run: |
         cpanm --verbose Module::Runtime
+
+#    - name: Regular Tests
+#      run: |
+#          perl Makefile.PL
+#          make
+#          make test
 

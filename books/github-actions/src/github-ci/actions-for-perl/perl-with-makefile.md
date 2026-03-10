@@ -1,6 +1,6 @@
-# Perl with Makefile.PL
+# Perl with Makefile.PL run native
 
 {% embed include file="src/examples/workflows/perl-makefile-native.yml" %}
 
-[Makefile.PL](https://github.com/szabgab/github-actions-perl-makefile-native)
+[repository](https://github.com/szabgab/github-actions-perl-makefile-native)
 
