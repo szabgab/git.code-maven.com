@@ -37,9 +37,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
     https://hub.docker.com/r/perldocker/perl-tester/
 
 DBI
-DBD::Pg
-Test::Class
-
 
 * Show default run using Docker images
 * Terraform ?

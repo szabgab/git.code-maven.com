@@ -47,7 +47,6 @@
   - [Deploy using ssh](./github-ci/actions/deploy-using-ssh.md)
   - [Artifact](./github-ci/actions/artifact.md)
   - [Lock Threads](./github-ci/actions/lock-threads.md)
-  - [GitHub Actions examples](./github-ci/actions/github-actions-examples.md)
   - [GitHub Workflows](./github-ci/actions/github-workflows.md)
   - [List of files changed](./github-ci/actions/list-files-changed.md)
   - [Avoid duplicate triggers](./github-ci/actions/avoid-duplicate-triggers.md)
@@ -55,10 +54,6 @@
   - [Reuse public workflow](./github-ci/actions/reuse-public-workflow.md)
   - [Bash](./github-ci/actions/bash.md)
   - [Crystal](./github-ci/actions/crystal.md)
-  - [Redis](./github-ci/actions/redis.md)
-  - [Solr](./github-ci/actions/solr.md)
-  - [MySQL](./github-ci/actions/mysql.md)
-  - [PostgreSQL](./github-ci/actions/postgresql.md)
   - [Don't run in forks](./github-ci/actions/dont-run-in-forks.md)
   - [Cache restore and save](./github-ci/actions/cache.md)
   - [Run code if file changes](./github-ci/actions/run-code-if-files-changes.md)
@@ -67,6 +62,19 @@
   - [Run only on the main branch and the pr/* branches](./github-ci/actions/run-only-on-main-branch.md)
   - [2026.03.08](./github-ci/actions/20260308.md)
   - [Experiment with GitHub actions](./github-ci/actions/experiment.md)
+
+- [GitHub Actions with service](./github-ci/actions/github-actions-service.md)
+  - [Redis](./github-ci/actions/redis.md)
+  - [Solr](./github-ci/actions/solr.md)
+  - [MySQL](./github-ci/actions/mysql.md)
+  - [PostgreSQL](./github-ci/actions/postgresql.md)
+
+- [GitHub Actions case studies](./github-ci/actions/github-actions-examples.md)
+
+- [Reusabel GitHub Actions](./github-ci/actions/reusable-github-actions.md)
+
+- [Dependabot](./github-ci/dependabot/index.md)
+  - [Dependabot for Python and GitHub Actions](./github-ci/dependabot/python-and-gha.md)
 
 - [GitHub Actions for Perl](./github-ci/actions-for-perl/index.md)
   - [Goals](./github-ci/actions-for-perl/github-actions-for-perl-goals.md)
