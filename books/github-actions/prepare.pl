@@ -47,6 +47,7 @@ my @pairs = (
     ["szabgab", "github-actions-demo-20201029",    "linux.yml",      "demo-20201029-linux.yml"],
     ["szabgab", "github-actions-demo-20201029",    "mac.yml",        "demo-20201029-mac.yml"],
     ["szabgab", "github-actions-demo-20201029",    "windows.yml",    "demo-20201029-windows.yml"],
+    ["szabgab", "github-actions-demo-20201224",    "ci.yml",         "demo-20201224.yml"],
     ["szabgab", "github-actions-list-files-changed", "using_changed_files_action.yml", "list-files-changed.yml"],
     ["szabgab", "github-actions-list-files-changed", "manual.yml", "list-files-changed-manual.yml"],
     ["szabgab", "github-actions-parallel",           "ci.yml", "parallel-ci.yml"],
@@ -85,6 +86,7 @@ sub check_all {
 
         my @no_dependabot = qw(
             github-actions-demo-20201029
+            github-actions-demo-20201224
             github-actions-demo-20260308
         );
         if (not any {$repo eq $_} @no_dependabot) {

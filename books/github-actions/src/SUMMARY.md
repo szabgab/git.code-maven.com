@@ -61,9 +61,12 @@
   - [GitHub Actions with parameters](./github-ci/actions/with-parameters.md)
   - [Incremental caching using S3 compatibale object storage of Linode](./github-ci/actions/caching-using-s3-linode.md)
   - [Run only on the main branch and the pr/* branches](./github-ci/actions/run-only-on-main-branch.md)
-  - [2020.10.29](./github-ci/actions/20201029.md)
-  - [2026.03.08](./github-ci/actions/20260308.md)
   - [Experiment with GitHub actions](./github-ci/actions/experiment.md)
+
+- [Previous Sessions](./github-ci/actions/previous-sessions.md)
+  - [2020.10.29](./github-ci/actions/20201029.md)
+  - [2020.12.24](./github-ci/actions/20201224.md)
+  - [2026.03.08](./github-ci/actions/20260308.md)
 
 - [GitHub Actions with service](./github-ci/actions/github-actions-service.md)
   - [Redis](./github-ci/actions/redis.md)
