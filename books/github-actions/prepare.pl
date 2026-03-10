@@ -1,8 +1,9 @@
 use strict;
 use warnings;
 use feature 'say';
-use File::Copy qw(copy);
 use Data::Dumper qw(Dumper);
+use File::Copy qw(copy);
+use List::Util qw(any);
 
 my $ROOT = "/home/gabor/github/github-actions";
 
@@ -41,6 +42,11 @@ my @pairs = (
     ["szabgab", "github-actions-minimal-docker-for-python", "ci.yml", "minimal-docker-for-python.yml"],
     ["szabgab", "github-actions-for-pr-branches", "ci.yml", "for-pr-branches.yml"],
     ["szabgab", "github-actions-demo-20260308",    "blank.yml", "demo-20260308.yml"],
+    ["szabgab", "github-actions-demo-20201029",    "blank.yml",      "demo-20201029-blank.yml"],
+    ["szabgab", "github-actions-demo-20201029",    "env_matrix.yml", "demo-20201029-env-matrix.yml"],
+    ["szabgab", "github-actions-demo-20201029",    "linux.yml",      "demo-20201029-linux.yml"],
+    ["szabgab", "github-actions-demo-20201029",    "mac.yml",        "demo-20201029-mac.yml"],
+    ["szabgab", "github-actions-demo-20201029",    "windows.yml",    "demo-20201029-windows.yml"],
     ["szabgab", "github-actions-list-files-changed", "using_changed_files_action.yml", "list-files-changed.yml"],
     ["szabgab", "github-actions-list-files-changed", "manual.yml", "list-files-changed-manual.yml"],
     ["szabgab", "github-actions-parallel",           "ci.yml", "parallel-ci.yml"],
@@ -77,7 +83,14 @@ sub check_all {
             die "$file in $repo is not used" if not $map{$repo}{$file};
         }
 
-        die "no dependabot in $repo" if not -e "$ROOT/$repo/.github/dependabot.yml";
+        my @no_dependabot = qw(
+            github-actions-demo-20201029
+            github-actions-demo-20260308
+        );
+        if (not any {$repo eq $_} @no_dependabot) {
+            die "no dependabot in $repo" if not -e "$ROOT/$repo/.github/dependabot.yml";
+        }
+
         # TODO check the content of dependabot.
 
 
