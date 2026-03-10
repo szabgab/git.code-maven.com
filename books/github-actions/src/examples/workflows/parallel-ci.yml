@@ -2,6 +2,7 @@ name: Parallel running
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   test_a:

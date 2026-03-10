@@ -38,7 +38,6 @@ Link to ? https://code-maven.com/github-actions or shall I move the content to g
 
 DBI
 
-* Show default run using Docker images
 * Terraform ?
 * Go over all the recommended workflows
 
