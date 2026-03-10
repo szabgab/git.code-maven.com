@@ -90,8 +90,6 @@
   - [CI Perl Tester Helpers](./github-ci/actions-for-perl/ci-perl-tester-helpers.md)
   - [GitHub Action to setup perl environment in the marketplace](./github-ci/actions-for-perl/setup-perl-environment.md)
   - [Perl and OS matrix](./github-ci/actions-for-perl/perl-os-matrix.md)
-  - [Perl and OS matrix - show error logs](./github-ci/actions-for-perl/perl-os-matrix-show-error-logs.md)
-  - [Perl and OS matrix - avoid warnings](./github-ci/actions-for-perl/perl-os-matrix-avoid-warnings.md)
   - [The Perl Planetarium](./github-ci/actions-for-perl/github-actions-to-build-the-perl-planetarium.md)
   - [About Github Action for Perl](./github-ci/actions-for-perl/presentations-about-github-actions-for-perl.md)
 
