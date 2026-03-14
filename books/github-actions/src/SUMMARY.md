@@ -112,6 +112,7 @@
   - [About Coveralls](./github-ci/coveralls/about-coveralls.md)
 
 - [GitHub Actions case studies](./github-ci/actions/github-actions-examples.md)
+- [Collect GitHub Actions](./github-ci/actions/collect-github-actions.md)
 
 - [Previous Sessions](./github-ci/actions/previous-sessions.md)
   - [2020.10.29](./github-ci/actions/20201029.md)

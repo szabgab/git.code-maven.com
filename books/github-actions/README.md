@@ -12,9 +12,6 @@ https://github.com/szabgab/github-pages-by-github-actions
 https://github.com/szabgab/github-actions-experiment
 
 https://github.com/szabgab/demo-github-actions
-https://github.com/szabgab/github-actions-demo-20201224
-https://github.com/szabgab/collect-github-actions
-https://github.com/szabgab/github-actions-demo-20201029
 
 
 TODO: Add section on setting up my own runner on
