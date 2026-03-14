@@ -28,6 +28,6 @@ I thin the ideal would be to
 1. Upload it as an artifact.
 1. Run another job on the native OSes using the zip file created earlier.
 
-I already setup such a workflow for at least one CPAN module. I'll find it and add it here as an example.
+I already setup such a workflow for [Test::Class](https://github.com/mjgardner/test-class). I'll add it here as an example.
 
 
