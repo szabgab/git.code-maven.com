@@ -45,3 +45,74 @@ DBI
 * Setup CI to allow running in main branch and in contrib/* branches on push
 
 
+Demo the trigger types:
+
+```yaml
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, labeled, unlabeled]
+```
+
+explain the permissions:
+
+```yaml
+permissions:
+  contents: read
+  pull-requests: write
+
+permissions:
+  contents: write
+  pull-requests: write
+
+
+```
+
+Explain the github.actior condition:
+
+```
+    if: ${{ github.actor == 'dependabot[bot]' || github.actor == 'szabgab' }}
+```
+
+
+Auto-merge Dependabot PRs (patch/minor only) https://github.com/Giordano10/VCSP
+
+```
+        uses: pascalgn/automerge-action@v0.16.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          mergeMethod: squash
+          mergeWhen: green # Só faz o merge se os testes passarem (ficarem verdes)
+          allowAuthor: dependabot[bot]
+```
+
+## Install uv
+
+```
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+           enable-cache: true
+           cache-dependency-glob: "**/requirements.txt"
+```
+
+```
+      - name: Commit do Gráfico
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "docs: update security trend chart"
+          file_pattern: .vibe/stats.json .vibe/assets/bug_trend.png README.md
+          branch: ${{ github.ref_name }}
+```
+
+
+```
+      - name: Upload coverage data
+        uses: codecov/codecov-action@v5
+        with:
+          env_vars: ENV_NAME,IO_MARK
+          files: test-data/coverage.xml
+          use_oidc: true
+          fail_ci_if_error: true
+```
+

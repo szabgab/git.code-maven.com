@@ -61,6 +61,8 @@ my @pairs = (
     ["szabgab", "github-actions-matrix-envrionment-variables", "ci.yml", "matrix_env_vars.yml"],
     ["szabgab", "github-actions-change-directory", "ci.yml", "change_directory.yml"],
     ["szabgab", "github-actions-perl-os-matrix",   "ci.yml", "perl-os-matrix.yml"],
+    ["szabgab", "github-actions-run-on-version-tags", "ci.yml", "trigger-on-version-tags-ci.yml"],
+    ["szabgab", "github-actions-run-on-version-tags", "tag.yml", "trigger-on-version-tags-tag.yml"],
 );
 
 copy_files();

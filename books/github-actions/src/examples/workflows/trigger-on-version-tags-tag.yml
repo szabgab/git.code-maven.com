@@ -1,0 +1,22 @@
+name: Git tags
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: git log
+        run: |
+          git log
+
+      - name: show git tags
+        run: |
+          git tag
