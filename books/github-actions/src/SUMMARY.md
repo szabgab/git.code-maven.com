@@ -64,6 +64,8 @@
   - [Trigger on version tags](./github-ci/actions/trigger-on-version-tags.md)
 
 - [Available GitHub actions](./github-ci/actions/available-github-actions.md)
+  - [astral-sh/setup-uv](./github-ci/actions/astral-sh-setup-uv-ci.md)
+
 
 - [GitHub Actions with service](./github-ci/actions/github-actions-service.md)
   - [Redis](./github-ci/actions/redis.md)

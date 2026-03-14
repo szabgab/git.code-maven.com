@@ -86,16 +86,6 @@ Auto-merge Dependabot PRs (patch/minor only) https://github.com/Giordano10/VCSP
           allowAuthor: dependabot[bot]
 ```
 
-## Install uv
-
-```
-      - name: Install uv
-        uses: astral-sh/setup-uv@v7
-        with:
-           enable-cache: true
-           cache-dependency-glob: "**/requirements.txt"
-```
-
 ```
       - name: Commit do Gráfico
         uses: stefanzweifel/git-auto-commit-action@v7

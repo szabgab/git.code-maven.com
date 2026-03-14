@@ -1,0 +1,50 @@
+name: Setup uv
+
+# https://github.com/astral-sh/setup-uv
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: uv and python version
+        run: |
+          uv -V
+          python -V
+
+  try:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        uv-version:
+          - 0.8.10
+          - 0.7.3
+        python-version:
+          - 3.13
+          - 3.12
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          version: ${{matrix.uv-version}}
+          python-version: ${{matrix.python-version}}
+          enable-cache: false
+
+      - name: uv and python version
+        run: |
+          uv -V
+          python -V
+
