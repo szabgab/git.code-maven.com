@@ -9,7 +9,6 @@ TODO: Add manual triggering so I can re-run the jobs during demo.  workflow_disp
 
 https://github.com/szabgab/github-actions
 https://github.com/szabgab/github-pages-by-github-actions
-https://github.com/szabgab/github-actions-experiment
 
 https://github.com/szabgab/demo-github-actions
 
