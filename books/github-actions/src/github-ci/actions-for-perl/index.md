@@ -21,7 +21,7 @@ If you'd like to ensure that your code runs on Windows and macOS then you need t
 
 You can setup both and combine them.
 
-I thin the ideal would be to
+I think the ideal would be to
 
 1. Run the test in Docker in one or more versions of perl.
 1. Create a distribution using one of the Perl versions.
