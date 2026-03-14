@@ -1,5 +1,4 @@
 # The Perl Planetarium
 
-* [Perl Planetarium](https://perl.theplanetarium.org/)
-
+* [The Perl Planetarium](https://perl.theplanetarium.org/)
 
