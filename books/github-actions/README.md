@@ -7,8 +7,6 @@ TODO: link to these examples
 TODO: Add dependabot to these repos so they will be up to date.
 TODO: Add manual triggering so I can re-run the jobs during demo.  workflow_dispatch:
 
-https://github.com/szabgab/github-actions-docker-compose
-
 https://github.com/szabgab/github-actions
 https://github.com/szabgab/github-pages-by-github-actions
 https://github.com/szabgab/github-actions-experiment

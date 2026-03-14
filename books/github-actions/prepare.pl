@@ -64,6 +64,7 @@ my @pairs = (
     ["szabgab", "github-actions-run-on-version-tags", "ci.yml", "trigger-on-version-tags-ci.yml"],
     ["szabgab", "github-actions-run-on-version-tags", "tag.yml", "trigger-on-version-tags-tag.yml"],
     ["szabgab", "github-actions-astral-sh-setup-uv", "ci.yml", "astral-sh-setup-uv-ci.yml"],
+    ["szabgab", "github-actions-docker-compose", "ci.yml", "docker-compose-ci.yml"],
 );
 
 copy_files();

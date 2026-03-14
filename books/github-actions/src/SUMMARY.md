@@ -62,6 +62,7 @@
   - [Run only on the main branch and the pr/* branches](./github-ci/actions/run-only-on-main-branch.md)
   - [Experiment with GitHub actions](./github-ci/actions/experiment.md)
   - [Trigger on version tags](./github-ci/actions/trigger-on-version-tags.md)
+  - [Docker compose](./github-ci/actions/docker-compose.md)
 
 - [Available GitHub actions](./github-ci/actions/available-github-actions.md)
   - [astral-sh/setup-uv](./github-ci/actions/astral-sh-setup-uv-ci.md)
