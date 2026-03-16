@@ -290,4 +290,9 @@ Git find when a file was renamed.
 
 Find when a line was removed. Eg. In the list of subscribers of the Perl Weekly (or when a function was removed)
 
-Try 3-way merge tools
+Show 3-way merge tools
+
+
+
+
+
