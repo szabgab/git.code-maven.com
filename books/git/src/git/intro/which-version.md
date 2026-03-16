@@ -8,5 +8,6 @@ git version 2.17.0
 git version 2.20.1
 git version 2.30.2
 git version 2.39.5 (Apple Git-154)
+git version 2.51.0
 ```
 
