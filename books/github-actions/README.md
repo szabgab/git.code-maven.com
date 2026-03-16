@@ -93,3 +93,4 @@ Auto-merge Dependabot PRs (patch/minor only) https://github.com/Giordano10/VCSP
           fail_ci_if_error: true
 ```
 
+Talk about pre-commit and pre-push hooks as well.
