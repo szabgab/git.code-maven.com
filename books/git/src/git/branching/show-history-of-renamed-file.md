@@ -2,7 +2,7 @@
 
 
 ```
-$ git lot --follow --name-only FILENAME
+$ git log --follow --name-only FILENAME
 ```
 
 
