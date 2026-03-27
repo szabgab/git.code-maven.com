@@ -293,6 +293,6 @@ Find when a line was removed. Eg. In the list of subscribers of the Perl Weekly 
 Show 3-way merge tools
 
 
+git tag - show the differnt tags
 
-
-
+git swicth -c BRANCH ?
