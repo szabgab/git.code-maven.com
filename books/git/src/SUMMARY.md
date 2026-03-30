@@ -209,4 +209,7 @@
   - [Setup git subtree](./git/extra/setup-git-subtree.md)
   - [git subtree change parent](./git/extra/git-subtree-change-parent.md)
   - [git subtree change in subtre](./git/extra/git-subtree-change-subtree.md)
+  - [tig](./git/extra/tig.md)
+  - [Set the author](./git/extra/set-the-author.md)
+  - [Find removed code](./git/extra/find-removed-code.md)
 

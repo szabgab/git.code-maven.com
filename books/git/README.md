@@ -295,4 +295,11 @@ Show 3-way merge tools
 
 git tag - show the differnt tags
 
-git swicth -c BRANCH ?
+git switch -c BRANCH ?
+
+bisect:
+    Find where a bug was introduced into the code-base
+
+https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements/pull/38
+
+
