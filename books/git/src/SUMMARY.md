@@ -199,6 +199,10 @@
   - [Resources](./git/appendix/git-resources.md)
   - [Conflicts](./git/intro/conflicts.md)
 
+- [Hooks](./git/hooks/index.md)
+  - [pre-commit hook](./git/hooks/pre-commit.md)
+  - [commit-msg hook](./git/hooks/commit-msg.md)
+
 - [Extra](./git/extra/index.md)
   - [Stage hunk-by-hunk](./git/extra/stage-hunk-by-hunk.md)
   - [Edit last commit message](./git/extra/edit-last-commit-message.md)
