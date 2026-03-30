@@ -165,6 +165,7 @@
   - [Gitflow with Fast Forward merges](./git/flow/gitflow-with-ff-merges.md)
 
 - [Github](./git/github/index.md)
+  - [Github Open Source](./git/github/open-source.md)
   - [Fork repository](./git/github/fork-repository.md)
   - [Forking workflow](./git/github/forking-workflow.md)
   - [Clone a repository from Github](./git/github/clone-from-github.md)
@@ -212,4 +213,5 @@
   - [tig](./git/extra/tig.md)
   - [Set the author](./git/extra/set-the-author.md)
   - [Find removed code](./git/extra/find-removed-code.md)
-
+  - [Move main branch to an earlier commit](./git/extra/move-branch-back.md)
+  - [Rename branch](./git/extra/rename-branch.md)

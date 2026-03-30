@@ -1,7 +1,5 @@
 # Git Objects (Files)
 
-* .git
-
 ```
 git init
 ls -l .git
@@ -15,5 +13,4 @@ blob
 ```
 
 the type of these object is called blob
-
 
