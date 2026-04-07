@@ -9,3 +9,7 @@ and another person adds a new program multiplying the first n fibo numbers using
 
 {% embed include file="src/examples/fibo-python/fibo_multiply.py" %}
 
+{% embed include file="src/examples/fibo-python/test_myfibo.py" %}
+
+{% embed include file="src/examples/fibo-python/test_fibo_multiply.py" %}
+
