@@ -73,6 +73,7 @@
   - [Exercises Session 4](./git/branching/exercises-4.md)
   - [Simple automatic merge](./git/branching/merge-a-branch.md)
   - [Merge with conflict](./git/branching/merge-with-conflict.md)
+  - [Merge conflict in Python](./git/branching/python-fibonacci.md)
   - [Repeated merge](./git/branching/repeated-merge.md)
   - [Delete branch](./git/branching/delete-barnch.md)
   - [Force delete branch](./git/branching/force-delete-branch.md)
