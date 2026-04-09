@@ -1,7 +1,7 @@
 fn main() {
     let args = std::env::args().collect::<Vec<String>>();
     if args.len() != 2 {
-        println!("Usage: {}", &args[0]);
+        println!("Usage: {} NUMBER", &args[0]);
         std::process::exit(1);
     }
     let n = args[1].parse::<u32>().unwrap();
