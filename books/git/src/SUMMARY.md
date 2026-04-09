@@ -76,7 +76,7 @@
   - [Merge conflict in Python](./git/branching/python-fibonacci.md)
   - [Merge conflict in Rust](./git/branching/rust-fibonacci.md)
   - [Repeated merge](./git/branching/repeated-merge.md)
-  - [Delete branch](./git/branching/delete-barnch.md)
+  - [Delete branch](./git/branching/delete-branch.md)
   - [Force delete branch](./git/branching/force-delete-branch.md)
   - [Exercise 5](./git/exercises-5.md)
   - [Exercises Session 6](./git/branching/exercises-6.md)
@@ -184,7 +184,7 @@
   - [Remove remote branch](./git/github/remove-remote-branch.md)
 
 - [Git Internals](./git/internals/index.md)
-  - [Plumbing and Porcelan](./git/internals/plumbing-and-porcelan.md)
+  - [Plumbing and Porcelain](./git/internals/plumbing-and-porcelain.md)
   - [The .git directory](./git/internals/git-directory.md)
   - [Git Objects (Files)](./git/internals/git-objects.md)
   - [See Objects](./git/internals/see-objects.md)
