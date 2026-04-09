@@ -1,4 +1,4 @@
-# git subtree change in subtre
+# git subtree change in subtree
 
 
 ```

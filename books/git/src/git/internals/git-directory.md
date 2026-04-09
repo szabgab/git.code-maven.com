@@ -1,6 +1,6 @@
 # The `.git` directory
 
-The following foleder and files are created when we raun `git init`.
+The following folder and files are created when we run `git init`.
 
 * branches/
 * index - also called staging area

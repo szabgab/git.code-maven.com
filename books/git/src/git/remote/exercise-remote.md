@@ -9,7 +9,7 @@
 * push the changes to the server
 
 
-* Clone a reposiotry
+* Clone a repository
 * Create local develop branch tracking the remote develop branch
 * Create local branch feature/USERNAME
 * Make some changes

@@ -8,7 +8,7 @@ $ git branch
 * main
 ```
 
-* Create a branch and list the branches again.The `star` indicats the current branch. 
+* Create a branch and list the branches again.The `star` indicates the current branch. 
 
 ```
 $ git branch featurex

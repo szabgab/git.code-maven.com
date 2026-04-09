@@ -54,7 +54,7 @@ $ git diff
 
 This will show nothing as all the changes were marked for staging.
 
-We can use one of the flags to see the chnages that were changed that are about to be committed.
+We can use one of the flags to see the changes that were changed that are about to be committed.
 
 ```
 $ git diff --cached    (or --staged)

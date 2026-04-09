@@ -19,7 +19,7 @@ git clone  URL
 git checkout -b develop origin/develop
 ```
 
-When a developer starts to work on feature X, she needs to create a local branch and push ot to the server.
+When a developer starts to work on feature X, she needs to create a local branch and push it to the server.
 
 
 ```
@@ -27,7 +27,7 @@ git checkout -b feature/X
 git push -u origin feature/X
 ```
 
-Other developer who also wants to work on feature X, needs to create local branch for it tracking the respecive remote branch.
+Other developer who also wants to work on feature X, needs to create local branch for it tracking the respective remote branch.
 
 
 ```
@@ -53,7 +53,7 @@ git push
 
 
 When the feature is finished one of the developers needs
-to integrate the changes in develop since the start of featoure/X and feature/X itself.
+to integrate the changes in develop since the start of feature/X and feature/X itself.
 In order to keep feature/X intact we do this integration in a separate branch:
 
 
@@ -73,7 +73,7 @@ git merge develop                     # there might be conflicts!
 
 The branch integrate/X can be tested. If something is broken, the developers can
 fix it on feature/X and merge it again into integrate/X. Once the integration is done
-and the integrate/X was pused to the central server,
+and the integrate/X was pushed to the central server,
 
 
 
@@ -125,7 +125,7 @@ There is a separate command set for release and for hotfixes:
 git checkout develop
 git checkout -b release/v1.00
 git push -u origin release/v1.00
-# do some last minute work on the relaase branch. Once it is done
+# do some last minute work on the release branch. Once it is done
 git checkout main
 git merge --ff-only release/v1.00    # fast forward
 git tag v1.00                        # tag is placed on the main

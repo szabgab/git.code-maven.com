@@ -9,7 +9,7 @@ $ git status
 
 {% embed include file="src/examples/out/status_06.txt" %}
 
-We now have several changes in the workind directory (one file changes and two were added).
+We now have several changes in the working directory (one file changes and two were added).
 Some of these changes might be related to each other, some might be unrelated.
 
 It would have been cleaner if we worked on exactly one task at a time, but life happens.

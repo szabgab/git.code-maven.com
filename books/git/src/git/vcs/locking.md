@@ -22,5 +22,5 @@ Advantage: Allows parallel work by multiple people.
 Disadvantage: There can be several types of conflicts.
 
 
-Later on we'll discuss the various types of conflicts. How to avoid them and how to resolve the conflicst if they happen.
+Later on we'll discuss the various types of conflicts. How to avoid them and how to resolve the conflicts if they happen.
 

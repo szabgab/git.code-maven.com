@@ -1,6 +1,6 @@
 # Github Open Source
 
-Environment: The project has an official repositor to which you have read access but not write access.
+Environment: The project has an official repository to which you have read access but not write access.
 
 ## Traditional
 
@@ -9,7 +9,7 @@ Environment: The project has an official repositor to which you have read access
 1. Clone your fork to your computer. `git clone git@github.com:YOU/PROJECT.git`
 1. Create a branch for the changes. `git checkout -b FEATURE
 1. Make the changes with one or more commits on the FEATURE branch.
-1. Push out the chnages to your fork. `git push -u origin FEATURE`.
+1. Push out the changes to your fork. `git push -u origin FEATURE`.
 1. Go to your fork on GitHub and send a Pull-Request.
 
 If the OWNER accepts the PR and merges the changes then you can delete the local clone and the fork in your GitHub user and maybe start again.

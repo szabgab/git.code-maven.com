@@ -6,7 +6,7 @@ By and large conflicts Can be avoided with good planning and frequent integratio
 
 * Content (textual) merge conflicts
     * When two developers change (almost) the same line in the same file.
-* Structural / File system conflicst
+* Structural / File system conflicts
     * "Evil twin" - when two developers create a new file with the same name.
     * Modify/Delete - when one developer modifies a file and the other deletes it.
     * Modify/Rename - when one developer modifies a file and the other deletes it.
@@ -14,7 +14,7 @@ By and large conflicts Can be avoided with good planning and frequent integratio
 * Build (compile) conflicts
     * One developer renames a function, the other adds a call to the function using the old name.
     * One developer changes the signature of a function, the other adds a call to the function using the old signature.
-    * One developer chnages the type of a variable, the other adds another use of the variable relying on the old type.
+    * One developer changes the type of a variable, the other adds another use of the variable relying on the old type.
     * ...
     * In these cases the automatic merge will work, but the resulting code will not work properly or won't even compile.
     * In the dynamic language (Perl, Python, Ruby, PHP, JavaScript) some of the problems mentioned in "build conflicts" will only show up during run-time.
@@ -31,7 +31,7 @@ By and large conflicts Can be avoided with good planning and frequent integratio
 * Central files that everyone needs to change.
 * Long-lived branches.
 * Avoiding integration in the same branch.
-* Large-scale refactoring. (e.g. renaming a function that is used accross the whole project)
+* Large-scale refactoring. (e.g. renaming a function that is used across the whole project)
 
 
 ## How to avoid conflicts?

@@ -1,6 +1,6 @@
 # git services
 
-Although `git` is a DVCS and thus it does not need a central repository, most projects use a central service to ease the communcation and to provide an official source.
+Although `git` is a DVCS and thus it does not need a central repository, most projects use a central service to ease the communication and to provide an official source.
 
 Most projects use a well-know service such as:
 

@@ -1,7 +1,7 @@
 # Remove local branch
 
 ```
-git checkout maste
+git checkout master
 git branch -d feature
 ```
 

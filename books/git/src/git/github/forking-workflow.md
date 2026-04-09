@@ -11,7 +11,7 @@
 * Mary sets up the remote repository of Joe to be a remote repository of her own. (She only needs to do this once per repo.) git remote add upstream https://github.com/joe/demo.git
 * Mary changes to `main` locally, and pulls from Joe: `git checkout main` and `git pull upstream main`
 * Mary can then delete the local and remote 'feature' branch.
-* If Mary already has other  feature branchese she might want to rebase them onto `main` so they will be based on the most recent changes.
+* If Mary already has other  feature branches she might want to rebase them onto `main` so they will be based on the most recent changes.
 
 
 ## Working with remote repository

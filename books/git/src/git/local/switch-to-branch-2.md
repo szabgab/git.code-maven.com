@@ -5,7 +5,7 @@ $ git checkout add-poll
 ```
 
 
-The file MASTER disappers. The file POLL reappears.
+The file MASTER disappears. The file POLL reappears.
 
 
 

@@ -8,7 +8,7 @@ After creating a repository look at the `.git/hooks/` folder. It contains exampl
 
 You can rename one of the files with the `.sample` extension removing this extension or you can add your own program with such names without the `.sample` extension.
 
-You can use these hooks to enforce policies, but one thing project managers need to keep in mind is that hooks are opt-in.  People can always remove them from their computer. So if you really want to enfoce policies that must be done on the server. The hooks can only be used to provide early feedback and to help people avod emberassment by pushing out a change with some lame mistake.
+You can use these hooks to enforce policies, but one thing project managers need to keep in mind is that hooks are opt-in.  People can always remove them from their computer. So if you really want to enforce policies that must be done on the server. The hooks can only be used to provide early feedback and to help people avoid emberassment by pushing out a change with some lame mistake.
 
 
 * applypatch-msg.sample
@@ -23,6 +23,6 @@ You can use these hooks to enforce policies, but one thing project managers need
 * pre-receive.sample
 * prepare-commit-msg.sample
 * push-to-checkout.sample
-* sendemail-validate.sample
+* sendmail-validate.sample
 * update.sample
 

@@ -2,7 +2,7 @@
 
 ```
 $ git fetch
-$ git chcekout main 
+$ git checkout main 
 $ git merge origin/main
 ```
 

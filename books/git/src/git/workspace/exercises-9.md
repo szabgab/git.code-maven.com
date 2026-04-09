@@ -18,10 +18,10 @@ git commit -am "7"
 ```
 
 * Then change the `add.sh` file replacing the + by a -.
-* Create another 5 commits chaning the NUMBER file.
+* Create another 5 commits changing the NUMBER file.
 
 * No check if the `add.sh` script works
-* `./add.sh 23 19` will now prin 4 instead of 42.
+* `./add.sh 23 19` will now print 4 instead of 42.
 
 * Using bisect find the commit that broke it.
 

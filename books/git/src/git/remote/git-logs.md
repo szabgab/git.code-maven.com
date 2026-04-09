@@ -1,7 +1,7 @@
 # incoming, outgoing
 
 
-git incoming - After a fetch it will show what is on the remote `main` barnch that I have not merged into my own `main`.
+git incoming - After a fetch it will show what is on the remote `main` branch that I have not merged into my own `main`.
 
 
 ```
