@@ -5,6 +5,7 @@
 * There might be several people working on different features at the same time.
 * Git allows and encourages frequent commits and you'd like to work "in your own corner".
 
+---
 
 * You want to make it easy for yourself to follow the development of a project while working on your feature.
 

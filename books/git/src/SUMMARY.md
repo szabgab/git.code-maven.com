@@ -65,7 +65,7 @@
   - [blame](./git/basics/git-blame.md)
   - [Exercise 2](./git/basics/exercise-basic.md)
 
-- [Git Branching](./git/branching/index.md)
+- [Git branching, merging, and rebase](./git/branching/index.md)
   - [Why use branches?](./git/branching/start-a-branch.md)
   - [Create a branch](./git/branching/create-a-branch.md)
   - [Create a branch and switch to it](./git/branching/create-a-branch-and-switch-to-it.md)
