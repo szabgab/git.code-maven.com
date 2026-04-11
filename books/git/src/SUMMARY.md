@@ -63,6 +63,7 @@
   - [git log](./git/basics/git-log.md)
   - [gitk](./git/basics/gitk.md)
   - [blame](./git/basics/git-blame.md)
+  - [short status](./git/basics/short-status.md)
   - [Exercise 2](./git/basics/exercise-basic.md)
 
 - [Git branching, merging, and rebase](./git/branching/index.md)

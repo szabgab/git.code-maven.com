@@ -9,7 +9,7 @@ Each file can be either
 
 Tracked files can be
 
-* **unmodified**
+* **committed** (aka. **unmodified**)
 * **modified**
 * **staged**
 

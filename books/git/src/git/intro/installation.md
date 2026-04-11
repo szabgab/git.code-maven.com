@@ -5,7 +5,7 @@ On **Linux** you use your package manger (apt-get, yum, etc...) or install from 
 * `yum install git-core`
 * `apt-get install git-core`
 
-On **Microsoft Windows** install Git from [git-scm](https://git-scm.com/).
+On **Microsoft Windows** install Git from [git-scm](https://git-scm.com/) or [Git for Windows](https://gitforwindows.org/). They are the same.
 
 On **MacOS** use [Homebrew](https://brew.sh/) or [git-scm](https://git-scm.com/).
 

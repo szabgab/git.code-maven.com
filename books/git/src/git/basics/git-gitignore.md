@@ -14,7 +14,10 @@ config.ini
 *.swp
 ```
 
-
 Add this file to the repository and commit it.
 This will ensure that no one in the project will have the extra files problem.
 
+You can also have additional `.gitignore` files in the subdirectories that will only apply to those folders.
+
+
+There is a good [list of gitignore files](https://github.com/github/gitignore) by programming language and by frameworks maintaind by GitHub.

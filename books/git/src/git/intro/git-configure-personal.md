@@ -9,3 +9,9 @@ $ git config --list --global
 $ git config user.name      # to see specific value
 ```
 
+## Source of configuration option
+
+```
+git config --list --show-origin
+```
+

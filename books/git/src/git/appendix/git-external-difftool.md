@@ -1,5 +1,13 @@
-# External difftool WinMerge
+# External difftools WinMerge
 
+
+List the available tools:
+
+```
+git difftool --tool-help
+```
+
+Configure the difftool you prefer.
 
 ```
 git config --replace --global diff.tool winmerge
