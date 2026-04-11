@@ -209,7 +209,6 @@
 
 - [Extra](./git/extra/index.md)
   - [Stage hunk-by-hunk](./git/extra/stage-hunk-by-hunk.md)
-  - [Edit last commit message](./git/extra/edit-last-commit-message.md)
   - [Push to remote branch](./git/extra/push-to-remote-branch.md)
   - [Detached HEAD](./git/extra/detached-head.md)
   - [Change last commit message](./git/extra/change-last-commit-message.md)
