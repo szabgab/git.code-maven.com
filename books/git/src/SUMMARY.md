@@ -198,7 +198,8 @@
   - [Edit config files](./git/appendix/git-config-editing.md)
   - [Common Git commands](./git/appendix/common-commands.md)
   - [Tools](./git/appendix/tools.md)
-  - [External difftool WinMerge](./git/appendix/git-external-difftool.md)
+  - [External difftools](./git/appendix/git-external-difftool.md)
+  - [External difftool WinMerge](./git/appendix/git-external-difftool-winmerge.md)
   - [Resources](./git/appendix/git-resources.md)
   - [Conflicts](./git/intro/conflicts.md)
 

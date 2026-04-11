@@ -1,5 +1,6 @@
-# External difftools WinMerge
+# External difftools
 
+In addition to the built-in `diff` command we can also use various external diff-tools.
 
 List the available tools:
 
@@ -9,24 +10,11 @@ git difftool --tool-help
 
 Configure the difftool you prefer.
 
-```
-git config --replace --global diff.tool winmerge
-git config --replace --global difftool.winmerge.cmd
-   "winmerge.sh \"\$LOCAL\" \"\$REMOTE\""
-git config --replace --global difftool.prompt false
-```
-
-Save the following in c:\Users\Gabor\bin\winmerge.sh
-
-
-```
-#!/bin/sh
-echo Launching WinMergeU.exe: $1 $2
-"$PROGRAMFILES/WinMerge/WinMergeU.exe" -e -ub -dl "Base" -dr "Mine" "$1" "$2"
-```
+Run the difftool on the unstaged changes.
 
 ```
 $ git difftool
 ```
 
+Use the `--staged` flag if you'd like to see the staged changes.
 
