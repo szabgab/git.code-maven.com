@@ -223,3 +223,5 @@
   - [Find removed code](./git/extra/find-removed-code.md)
   - [Move main branch to an earlier commit](./git/extra/move-branch-back.md)
   - [Rename branch](./git/extra/rename-branch.md)
+  - [Local config file](./git/extra/local-config-file.md)
+
