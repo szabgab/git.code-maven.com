@@ -7,14 +7,12 @@ git merge --abort
 git rebase --abort
 
 
-* Physical conflict - chaning the same line.
+* Physical conflict - changing the same line.
 
-* Automerge works but there is a syntactic or logical conflict that break the code. (compile-time or run-time error)
+* Automerge works but there is a syntactic or logical conflict that breaks the code. (compile-time or run-time error)
 
 * Automerge works, but still, how can we know that the result is correct?
 
-
-LFS - Git Large File Storage
 
 describe
 show
@@ -31,7 +29,7 @@ Git find when a file was renamed.
 
 Show 3-way merge tools
 
-git tag - show the differnt tags
+git tag - show the different tags
 
 git switch -c BRANCH ?
 
@@ -40,4 +38,7 @@ bisect:
 
 https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements/pull/38
 
+
+
+If a tool wants to crate a folder that will be ignored by git it can add a `.gitignore` file in the folder with `*` e.g. the Python coverage module does this when it creates the html report in the `htmlcov` folder.
 
