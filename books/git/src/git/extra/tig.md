@@ -14,4 +14,6 @@
     * Press `n` to jump to the newt match.
     * Press `q` to quite the help window.
 
-
+```
+tig blame
+```
