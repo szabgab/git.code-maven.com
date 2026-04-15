@@ -19,11 +19,11 @@ jobs:
         image: redis:${{matrix.redis}}
 
     runs-on: ubuntu-latest
-    container: ubuntu:22.10
+    container: ubuntu:25.10
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Install curl and ping
         run: |

@@ -85,6 +85,7 @@
 
   - [Perl with Makefile.PL Native](./github-ci/actions-for-perl/perl-with-makefile.md)
   - [Perl with Makefile.PL using Docker container](./github-ci/actions-for-perl/perl-with-makefile-docker.md)
+  - [Perl with Makefile.PL release and test](./github-ci/actions-for-perl/perl-with-makefile-release-and-test.md)
   - [Perl with Build.PL](./github-ci/actions-for-perl/perl-with-build-pl.md)
   - [Perl with Dist::Zilla Native](./github-ci/actions-for-perl/perl-with-dist-zilla.md)
   - [Perl with Dist::Zilla in Docker](./github-ci/actions-for-perl/perl-with-dist-zilla-docker.md)
