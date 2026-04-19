@@ -32,6 +32,7 @@ We can also use the web interface of the various git hosting systems
 * [Sublime Merge](https://www.sublimemerge.com/)
 * [GitLens](https://gitlens.amod.io/)
 * [GitKraken](https://www.gitkraken.com/)
+* [Tortoise Git](https://tortoisegit.org/)
 
 ## Terminal User Interface (TUI)
 
@@ -42,6 +43,7 @@ We can also use the web interface of the various git hosting systems
 * VS Code
 * Zed - [Git integration](https://zed.dev/docs/git)
 * Emacs - [Magit](https://magit.vc/)
+* Vim - [fugitive](https://github.com/tpope/vim-fugitive)
 
 
 ## Alternatives?
