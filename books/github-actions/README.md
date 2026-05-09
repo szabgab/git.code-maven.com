@@ -94,3 +94,7 @@ Auto-merge Dependabot PRs (patch/minor only) https://github.com/Giordano10/VCSP
 ```
 
 Talk about pre-commit and pre-push hooks as well.
+
+
+Add 
+https://github.com/szabgab/github-actions-matrix-explicit-include
